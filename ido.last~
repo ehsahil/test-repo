@@ -1,0 +1,29 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/" . "joaqmendez/")
+ ("/" . "Users/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ 
+)
+
+;; ----- ido-work-file-list -----
+(
+ 
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/joaqmendez/" (22695 15987 0 0) "xbmc/" "Public/" "Pictures/" "mygit/" "Music/" "Movies/" "Library/" "jomendez/" "emacs/" "Downloads/" "Documents/" "Desktop/" "Applications/" ".zshrc.pre-oh-my-zsh" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-LM-GUA-22002223-5.3.1" ".zcompdump-LM-GUA-22002223-5.0.8" ".viminfo" ".vagrant.d/" ".Trash/" ".ssh/" ".sh_history" ".rvm/" ".rnd" ".profile" ".oracle_jre_usage/" ".oh-my-zsh/" ".lesshst" ".kodi/" ".gitconfig" ".gem/" ".fog" ".emacs.d/" ".DS_Store" ".docker/" ".config/" ".CFUserTextEncoding" ".bash_sessions/" ".bash_history" ".aws/" ".atom/" ".account" "../" "./")
+
+ ("/Users/" (22684 57236 0 0) "Shared/" "joaqmendez/" "administrator/" ".localized" ".DS_Store" "../" "./")
+
+ ("/Users/joaqmendez/mygit/sys-red/" (22695 10294 0 0) "VERSION.properties" "tests/" "spec/" "README.md" "Rakefile" "Puppetfile" "OWNERS.md" "metadata.json" "manifests/" "log/" "lib/" "junit/" "Jenkinsfile" "Gemfile.lock" "Gemfile" "docker/" "config/" ".vagrant/" ".ruby-version" ".ruby-gemset" ".rubocop.yml" ".rspec" ".puppet-lint.rc" ".gitignore" ".git/" ".gemrc" ".fixtures.yml" ".dockerignore" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

@@ -1,0 +1,35 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/" . "joaqmendez/")
+ ("/" . "Users/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/joaqmendez/mygit/sys-base/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "Puppetfile"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/joaqmendez/mygit/sys-base/" (22695 17572 0 0) "tests/" "spec/" "README.md" "Rakefile" "Puppetfile.lock" "Puppetfile" "OWNERS.md" "modules/" "metadata.json" "manifests/" "log/" "lib/" "junit/" "Jenkinsfile" "Gemfile.lock" "Gemfile" "environment.conf" "docker/" "config/" ".vagrant/" ".tmp/" ".ruby-version" ".ruby-gemset" ".rspec" ".librarian/" ".gitignore" ".git/" ".gemrc" ".fixtures.yml" ".dockerignore" "#Puppetfile#" "#.fixtures.yml#" "../" "./")
+
+ ("/Users/joaqmendez/mygit/sys-base/spec/" (22684 63180 0 0) "support/" "spec_helper_acceptance.rb" "spec_helper.rb" "shared/" "hosts/" "fixtures/" "acceptance/" "../" "./")
+
+ ("/Users/joaqmendez/mygit/sys-base/spec/acceptance/" (22695 17572 0 0) "zkp_spec.rb" "wxc_spec.rb" "web_spec.rb" "stc_spec.rb" "red_spec.rb" "rab_spec.rb" "pup_spec.rb" "nodesets/" "msv_spec.rb" "mgt_spec.rb" "mgc_spec.rb" "mdb_spec.rb" "mdb103_spec.rb" "mdb102_spec.rb" "lxc_spec.rb" "lbl_spec.rb" "int_spec.rb" "grd_spec.rb" "els_spec.rb" "dtc_spec.rb" "dlc_spec.rb" "../" "./")
+
+ ("/Users/joaqmendez/" (22695 15987 0 0) "xbmc/" "Public/" "Pictures/" "mygit/" "Music/" "Movies/" "Library/" "jomendez/" "emacs/" "Downloads/" "Documents/" "Desktop/" "Applications/" ".zshrc.pre-oh-my-zsh" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-LM-GUA-22002223-5.3.1" ".zcompdump-LM-GUA-22002223-5.0.8" ".viminfo" ".vagrant.d/" ".Trash/" ".ssh/" ".sh_history" ".rvm/" ".rnd" ".profile" ".oracle_jre_usage/" ".oh-my-zsh/" ".lesshst" ".kodi/" ".gitconfig" ".gem/" ".fog" ".emacs.d/" ".DS_Store" ".docker/" ".config/" ".CFUserTextEncoding" ".bash_sessions/" ".bash_history" ".aws/" ".atom/" ".account" "../" "./")
+
+ ("/Users/" (22684 57236 0 0) "Shared/" "joaqmendez/" "administrator/" ".localized" ".DS_Store" "../" "./")
+
+ ("/Users/joaqmendez/mygit/sys-red/" (22695 10294 0 0) "VERSION.properties" "tests/" "spec/" "README.md" "Rakefile" "Puppetfile" "OWNERS.md" "metadata.json" "manifests/" "log/" "lib/" "junit/" "Jenkinsfile" "Gemfile.lock" "Gemfile" "docker/" "config/" ".vagrant/" ".ruby-version" ".ruby-gemset" ".rubocop.yml" ".rspec" ".puppet-lint.rc" ".gitignore" ".git/" ".gemrc" ".fixtures.yml" ".dockerignore" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
