@@ -1,0 +1,67 @@
+;; -*- emacs-lisp -*- <17/02/17 14:33:15 /Users/joaqmendez/.emacs.d/tramp>
+;; Tramp connection history.  Don't change this file.
+;; You can delete it, forcing Tramp to reapply the checks.
+
+((["sudo" "xoom" "remotehost" nil nil]
+  ("uname" "Linux 3.10.0-327.el7.x86_64")
+  ("locale" "LC_ALL=en_US.utf8")
+  ("test" "test")
+  ("remote-path"
+   ("/usr/bin" "/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("remote-shell" "/bin/sh")
+  ("stat" nil)
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl")
+  ("id" "/usr/bin/id")
+  ("gid-string" "xoom")
+  ("~xoom" "/home/xoom")
+  ("ls" "/usr/bin/ls --color=never")
+  ("ls-dired" t)
+  ("gid-integer" 999)
+  ("file-exists" "test -e")
+  ("readlink" "\\readlink")
+  ("git" "\\git")
+  ("trash" nil))
+ (["ssh" "jomendez" "build02.qa.xoom.com" nil nil]
+  ("uname" "Linux 3.10.0-327.el7.x86_64")
+  ("locale" "LC_ALL=en_US.utf8")
+  ("test" "test")
+  ("remote-path"
+   ("/usr/bin" "/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("remote-shell" "/bin/sh")
+  ("~" "/home/jomendez")
+  ("readlink" "\\readlink")
+  ("stat" nil)
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl")
+  ("file-exists" "test -e")
+  ("id" "/usr/bin/id")
+  ("gid-string" "users")
+  ("gid-integer" 10001))
+ (["sudo" "root" "remotehost" nil nil]
+  ("uname" "Linux 3.10.0-327.el7.x86_64")
+  ("locale" "LC_ALL=en_US.utf8")
+  ("test" "test")
+  ("remote-path"
+   ("/usr/bin" "/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("remote-shell" "/bin/sh")
+  ("~root" "/root")
+  ("ls" "/usr/bin/ls --color=never")
+  ("ls-dired" t)
+  ("stat" nil)
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl")
+  ("id" "/usr/bin/id")
+  ("gid-integer" 0)
+  ("gid-string" "root")
+  ("readlink" "\\readlink")
+  ("file-exists" "test -e"))
+ (["scp" nil "ssh" nil nil]
+  nil)
+ (["ssh" "jomendez" "build04.qa.xoom.com" nil nil]
+  nil)
+ (["scp" nil "sudo" nil nil]
+  nil))

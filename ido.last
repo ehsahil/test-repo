@@ -2,22 +2,42 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/ssh:jomendez@build04.qa.xoom.com|sudo:xoom@remotehost:/opt/xoom/" . "bin/")
+ ("/ssh:jomendez@build02.qa.xoom.com|sudo:remotehost:/opt/xoom/" . "bin/")
+ ("/ssh:jomendez@build02.qa.xoom.com|sudo:remotehost:/opt/" . "xoom/")
+ ("/ssh:jomendez@build02.qa.xoom.com|sudo:xoom@remotehost:/opt/xoom/" . "bin/")
+ ("/ssh:jomendez@build02.qa.xoom.com|sudo:xoom@remotehost:/opt/" . "xoom/")
  ("/Users/" . "joaqmendez/")
- ("/" . "Users/")
+ ("/" . "opt/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/ssh:jomendez@build04.qa.xoom.com|sudo:xoom@remotehost:"
+ "/ssh:jomendez@build02.qa.xoom.com|sudo:xoom@remotehost:"
+ "/ssh:jomendez@build02.qa.xoom.com|sudo:remotehost:"
+ "/ssh:jomendez@build02.qa.xoom.com|sudo:remotehost:/opt/xoom/bin/"
+ "/ssh:jomendez@build.qa.xoom.com|sudo:xoom@remotehost:"
+ "/ssh:jomendez@build02.qa.xoom.com:|sudo:xoom@"
+ "/shh:jomendez@build02.qa.xoom.com|sudo:xoom@build02.qa.xoom.com:"
  "/Users/joaqmendez/mygit/sys-base/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "docker-clean.sh"
+ "build02.qa.xoom.com"
  "Puppetfile"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/" (22695 11290 828575 0) "../" "./")
+
+ ("/opt/" (22633 57131 0 0) "X11/" "vagrant/" "keys/" "homebrew-cask/" "../" "./")
+
+ ("/Users/joaqmendez/mygit/sys-red/config/image_templates/" (22695 19185 0 0) "ec2.yaml" "../" "./")
+
  ("/Users/joaqmendez/mygit/sys-base/" (22695 17572 0 0) "tests/" "spec/" "README.md" "Rakefile" "Puppetfile.lock" "Puppetfile" "OWNERS.md" "modules/" "metadata.json" "manifests/" "log/" "lib/" "junit/" "Jenkinsfile" "Gemfile.lock" "Gemfile" "environment.conf" "docker/" "config/" ".vagrant/" ".tmp/" ".ruby-version" ".ruby-gemset" ".rspec" ".librarian/" ".gitignore" ".git/" ".gemrc" ".fixtures.yml" ".dockerignore" "#Puppetfile#" "#.fixtures.yml#" "../" "./")
 
  ("/Users/joaqmendez/mygit/sys-base/spec/" (22684 63180 0 0) "support/" "spec_helper_acceptance.rb" "spec_helper.rb" "shared/" "hosts/" "fixtures/" "acceptance/" "../" "./")

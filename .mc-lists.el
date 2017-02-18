@@ -4,8 +4,10 @@
 (setq mc/cmds-to-run-for-all
       '(
 	keyboard-escape-quit
+	kill-region
 	))
 
 (setq mc/cmds-to-run-once
       '(
+	electric-newline-and-maybe-indent
 	))
