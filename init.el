@@ -27,13 +27,20 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(autopair-global-mode t)
+ '(global-undo-tree-mode t)
  '(menu-bar-mode nil)
- '(package-selected-packages (quote (wrap-region multiple-cursors))))
+ '(package-selected-packages
+   (quote
+    (autopair undo-tree groovy-mode yaml-mode indent-tools terraform-mode wrap-region multiple-cursors)))
+ '(show-paren-mode t)
+ '(wrap-region-global-mode t nil (wrap-region)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(dired-directory ((t (:foreground "brightcyan"))))
  '(minibuffer-prompt ((t (:foreground "white")))))
 (global-linum-mode t)
 (show-paren-mode 1)

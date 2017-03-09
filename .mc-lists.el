@@ -10,4 +10,5 @@
 (setq mc/cmds-to-run-once
       '(
 	electric-newline-and-maybe-indent
+	tab-to-tab-stop
 	))

@@ -1,8 +1,8 @@
-;; -*- emacs-lisp -*- <17/02/17 14:33:15 /Users/joaqmendez/.emacs.d/tramp>
+;; -*- emacs-lisp -*- <17/03/08 19:32:03 /Users/joaqmendez/.emacs.d/tramp>
 ;; Tramp connection history.  Don't change this file.
 ;; You can delete it, forcing Tramp to reapply the checks.
 
-((["sudo" "xoom" "remotehost" nil nil]
+((["ssh" "jomendez" "build02.qa.xoom.com" nil nil]
   ("uname" "Linux 3.10.0-327.el7.x86_64")
   ("locale" "LC_ALL=en_US.utf8")
   ("test" "test")
@@ -13,55 +13,53 @@
   ("perl-file-spec" t)
   ("perl-cwd-realpath" t)
   ("perl" "\\perl")
-  ("id" "/usr/bin/id")
-  ("gid-string" "xoom")
-  ("~xoom" "/home/xoom")
-  ("ls" "/usr/bin/ls --color=never")
-  ("ls-dired" t)
-  ("gid-integer" 999)
-  ("file-exists" "test -e")
-  ("readlink" "\\readlink")
-  ("git" "\\git")
-  ("trash" nil))
- (["ssh" "jomendez" "build02.qa.xoom.com" nil nil]
-  ("uname" "Linux 3.10.0-327.el7.x86_64")
-  ("locale" "LC_ALL=en_US.utf8")
-  ("test" "test")
-  ("remote-path"
-   ("/usr/bin" "/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
-  ("remote-shell" "/bin/sh")
-  ("~" "/home/jomendez")
-  ("readlink" "\\readlink")
-  ("stat" nil)
-  ("perl-file-spec" t)
-  ("perl-cwd-realpath" t)
-  ("perl" "\\perl")
-  ("file-exists" "test -e")
   ("id" "/usr/bin/id")
   ("gid-string" "users")
-  ("gid-integer" 10001))
- (["sudo" "root" "remotehost" nil nil]
-  ("uname" "Linux 3.10.0-327.el7.x86_64")
+  ("gid-integer" 10001)
+  ("~" "/home/jomendez"))
+ (["sudo" "xoom" "remotehost" nil nil]
+  ("uname" "Linux 2.6.32-358.2.1.el6.x86_64")
   ("locale" "LC_ALL=en_US.utf8")
   ("test" "test")
   ("remote-path"
-   ("/usr/bin" "/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
   ("remote-shell" "/bin/sh")
-  ("~root" "/root")
-  ("ls" "/usr/bin/ls --color=never")
-  ("ls-dired" t)
-  ("stat" nil)
+  ("stat" "\\stat")
+  ("file-exists" "test -e")
+  ("id" "/usr/bin/id")
+  ("gid-string" "xoom")
   ("perl-file-spec" t)
   ("perl-cwd-realpath" t)
   ("perl" "\\perl")
-  ("id" "/usr/bin/id")
-  ("gid-integer" 0)
-  ("gid-string" "root")
+  ("~xoom" "/home/xoom")
   ("readlink" "\\readlink")
-  ("file-exists" "test -e"))
+  ("gid-integer" 999)
+  ("git" "\\git")
+  ("ls" "/bin/ls --color=never")
+  ("uid-integer" 999)
+  ("tmpdir" "/tmp")
+  ("touch-t" t)
+  ("touch" "\\touch"))
+ (["sudo" "xoom" "remot" nil nil]
+  ("uname" "Linux 2.6.32-358.2.1.el6.x86_64")
+  ("locale" "LC_ALL=en_US.utf8")
+  ("test" "test")
+  ("remote-path"
+   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("remote-shell" "/bin/sh")
+  ("stat" "\\stat")
+  ("file-exists" "test -e")
+  ("id" "/usr/bin/id")
+  ("gid-string" "xoom")
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl")
+  ("~xoom" "/home/xoom"))
  (["scp" nil "ssh" nil nil]
   nil)
- (["ssh" "jomendez" "build04.qa.xoom.com" nil nil]
+ (["ssh" nil "goldbox.qa.xoom.com" nil nil]
+  nil)
+ (["ssh" "jomendez" "goldbox.qa.xoom.com" nil nil]
   nil)
  (["scp" nil "sudo" nil nil]
   nil))
