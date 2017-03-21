@@ -11,7 +11,7 @@
  ("/Users/joaqmendez/jomendez/" . "mybash/")
  ("/sudo:xoom@remotehost:/home/xoom/slaves/" . "files/")
  ("/Users/joaqmendez/mygit/sys-jenkins/manifests/" . "slave/")
- ("/Users/joaqmendez/mygit/sys-jenkins/" . "files/")
+ ("/Users/joaqmendez/mygit/sys-jenkins/" . "manifests/")
  ("/Users/joaqmendez/mygit/sys-jenkins/spec/" . "classes/")
  ("/Users/joaqmendez/mygit/sys-base/" . "spec/")
  ("/Users/joaqmendez/mygit/sys-base/spec/" . "support/")
@@ -33,10 +33,10 @@
  ("/Users/joaqmendez/mygit/sys-red/spec/acceptance/" . "nodesets/")
  ("/Users/joaqmendez/mygit/sys-red/spec/" . "acceptance/")
  ("/Users/joaqmendez/mygit/sys-red/docker/" . "jenkins/")
- ("/Users/joaqmendez/" . "jomendez/")
- ("/Users/joaqmendez/mygit/" . "sys-jenkins/")
+ ("/Users/joaqmendez/" . "mygit/")
+ ("/Users/joaqmendez/mygit/" . "packer-centos/")
  ("/Users/joaqmendez/mygit/packer-centos/centos70/templates/" . "qa/")
- ("/Users/joaqmendez/mygit/packer-centos/centos70/" . "scripts/")
+ ("/Users/joaqmendez/mygit/packer-centos/centos70/" . "file/")
  ("/Users/joaqmendez/mygit/packer-centos/" . "centos70/")
  ("/Users/joaqmendez/mygit/sys-red/" . "spec/")
  ("/ssh:jomendez@build10.qa.xoom.com|sudo:remotehost:/opt/xoom/" . "bin/")
@@ -51,17 +51,20 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/joaqmendez/mygit/packer-centos/centos70/file/"
+ "/ssh:jomendez@goldbox.qa.xoom.com|sudo:xoom@remotehost:"
+ "/Users/joaqmendez/mygit/sys-jenkins/manifests/slave/"
+ "/Users/joaqmendez/mygit/sys-jenkins/manifests/"
+ "/Users/joaqmendez/mygit/sys-jenkins/"
  "/ssh:jomendez@goldbox.qa.xoom.com|sudo:xoom@remotehost:/home/xoom/slaves/"
+ "/Users/joaqmendez/mygit/sys-jenkins/files/scripts/system/"
+ "/ssh:jomendez@goldbox.qa.xoom.com|sudo:xoom@remotehost:/home/xoom/slaves/files/"
  "/Users/joaqmendez/mygit/packer-centos/centos70/scripts/slaves/"
  "/Users/joaqmendez/mygit/sys-base/spec/acceptance/"
- "/Users/joaqmendez/mygit/sys-jenkins/"
  "/Users/joaqmendez/mygit/sys-lxc/manifests/"
- "/Users/joaqmendez/mygit/sys-jenkins/files/scripts/system/"
  "/Users/joaqmendez/mygit/sys-jenkins/spec/classes/"
  "/Users/joaqmendez/mygit/sys-jenkins/spec/acceptance/"
- "/Users/joaqmendez/mygit/sys-jenkins/manifests/slave/"
  "/Users/joaqmendez/mygit/sys-jenkins/files/config/"
- "/ssh:jomendez@goldbox.qa.xoom.com|sudo:xoom@remotehost:/home/xoom/slaves/files/"
  "/sudo:xoom@remotehost:/home/xoom/slaves/"
  "/Users/joaqmendez/mygit/sys-jenkins/spec/support/"
  "/Users/joaqmendez/mygit/sys-base/spec/support/"
@@ -82,7 +85,6 @@
  "/Users/joaqmendez/mygit/backupterraform/"
  "/Users/joaqmendez/mygit/packer-centos/centos70/templates/qa/"
  "/Users/joaqmendez/mygit/packer-centos/centos70/"
- "/Users/joaqmendez/mygit/packer-centos/centos70/file/"
  "/Users/joaqmendez/mygit/packer-centos/centos70/scripts/"
  "/Users/joaqmendez/mygit/packer-centos/centos70/templates/xibs/"
  "/Users/joaqmendez/mygit/sys-red/spec/acceptance/nodesets/"
@@ -96,67 +98,88 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "masterlesspuppet.sh"
+ "puppetscript.sh"
+ "slave.pp"
+ "fotest.pp"
  "apply-puppet-slaves.sh"
  "build3.sh"
  "cleanup.sh"
  "mdb103_spec.rb"
  "lbl_spec.rb"
- "lxc_spec.rb"
- "Puppetfile"
- "base.pp"
- "init.pp"
- "rc.local"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/joaqmendez/xbmc/build/addons/" (22300 38977 0 0) "xbmc.webinterface/" "xbmc.python/" "xbmc.pvr/" "xbmc.metadata/" "xbmc.json/" "xbmc.gui/" "xbmc.core/" "xbmc.codec/" "xbmc.audioencoder/" "xbmc.addon/" "webinterface.default/" "visualization.waveform/" "visualization.spectrum/" "visualization.shadertoy/" "visualization.projectm/" "visualization.goom/" "visualization.fishbmc/" "skin.confluence/" "share/" "service.xbmc.versioncheck/" "script.module.pil/" "screensaver.xbmc.builtin.dim/" "screensaver.xbmc.builtin.black/" "screensaver.pingpong/" "resource.uisounds.confluence/" "resource.language.en_gb/" "resource.images.weathericons.default/" "repository.xbmc.org/" "pvr.wmc/" "pvr.vuplus/" "pvr.vdr.vnsi/" "pvr.vbox/" "pvr.stalker/" "pvr.pctv/" "pvr.njoy/" "pvr.nextpvr/" "pvr.mythtv/" "pvr.mediaportal.tvserver/" "pvr.iptvsimple/" "pvr.hts/" "pvr.hdhomerun/" "pvr.filmon/" "pvr.dvbviewer/" "pvr.dvblink/" "pvr.demo/" "pvr.argustv/" "metadata.tvdb.com/" "metadata.themoviedb.org/" "metadata.local/" "metadata.common.themoviedb.org/" "metadata.common.theaudiodb.com/" "metadata.common.musicbrainz.org/" "metadata.common.imdb.com/" "metadata.common.htbackdrops.com/" "metadata.common.fanart.tv/" "metadata.common.allmusic.com/" "metadata.artists.universal/" "metadata.album.universal/" "library.xbmc.pvr/" "library.xbmc.codec/" "library.xbmc.addon/" "library.kodi.guilib/" "library.kodi.audioengine/" "library.kodi.adsp/" "lib/" "kodi.resource/" "kodi.guilib/" "kodi.audiodecoder/" "kodi.adsp/" "audioencoder.xbmc.builtin.wma/" "audioencoder.xbmc.builtin.aac/" "audioencoder.wav/" "audioencoder.vorbis/" "audioencoder.lame/" "audioencoder.flac/" "audiodecoder.vgmstream/" "audiodecoder.timidity/" "audiodecoder.stsound/" "audiodecoder.snesapu/" "audiodecoder.sidplay/" "audiodecoder.nosefart/" "audiodecoder.modplug/" "adsp.freesurround/" "adsp.basic/" ".gitmodules" ".gitignore" "../" "./")
+ ("/ssh:jomendez@goldbox.qa.xoom.com|sudo:xoom@remotehost:/" (ftp . 413925.5019944461) "net/" "mnt/" ".autofsck" "lib/" "misc/" "lost+found/" "opt/" "bin/" "../" "tmp/" "sys/" "./" ".readahead_collect" "var/" "home/" "media/" "dev/" "lib64/" "sbin/" "cgroup/" "root/" "boot/" "swapfile" "srv/" "proc/" "usr/" "selinux/" "etc/")
 
- ("/Users/joaqmendez/" (22736 24598 0 0) "xbmc/" "VirtualBox VMs/" "Public/" "Pictures/" "mygit/" "Music/" "Movies/" "Library/" "jomendez/" "jenkins-infeng-seed-job/" "hola.txt" "emacs/" "Downloads/" "Documents/" "Desktop/" "bin/" "Applications/" ".zshrc.pre-oh-my-zsh" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-LM-GUA-22002223-5.3.1" ".zcompdump-LM-GUA-22002223-5.0.8" ".viminfo" ".vagrant.d/" ".Trash/" ".subversion/" ".ssh/" ".sh_history" ".rvm/" ".rnd" ".profile" ".packer.d/" ".ovftool.ssldb" ".oracle_jre_usage/" ".oh-my-zsh/" ".lesshst" ".kodi/" ".gitconfig" ".gem/" ".fog" ".emacs.d/" ".DS_Store" ".docker/" ".csp_ovftool_settings.js" ".config/" ".CFUserTextEncoding" ".bash_sessions/" ".bash_history" ".aws/" ".atom/" ".account" "#hola.txt#" "#.gitconfig#" "../" "./")
+ ("/ssh:jomendez@goldbox.qa.xoom.com|sudo:xoom@remotehost:/home/" (ftp . 413925.5018083166) "ghoil/" "landres/" "cmann/" "lreyes/" "fstutz/" "ncoutinho/" "jluo/" "jalvarez/" "mxuya/" "dcerna/" "ofunes/" "redis/" "cwareing/" "ludmorales/" "jcordero/" "cneill/" "./" "vzepeda/" "drowston/" "jrothrock/" "dfernando/" "jam/" "mherrarte/" "sbancroft/" "wyaxcal/" "pgarcia/" "jholtzman/" "abacker/" "snair/" "vcimala/" "dfigueroa/" "ogiron/" "kpassarelli/" "mcjones/" "xoom/" "amorales/" "tros/" "dcrites/" "bpollan/" "../" "lost+found/" "twexler/" "mmatson/" "acaldwell/" "jomendez/" "speckner/")
+
+ ("/ssh:jomendez@goldbox.qa.xoom.com|sudo:xoom@remotehost:/home/xoom/" (ftp . 413925.5016065494) "./" "../" "2014-07-15" "app-puppet/" "csadmin.properties" "jmxremote.password" "ec2-api-tools.zip.1" ".bashrc" "junk/" "KASY551A.08042014.070011.TXT" "fixxib.sh" "Deploy/" "src/" "xlb.conf" "docker-terraform/" "mysql" "home/" "jstat.policy" "xib-use.txt" "dumps/" "dps-model/" ".ssh/" "platform/" ".gg" "init.d/" "slaves/" "default.conf" "jprofiler_linux_9_0_2.tar.gz" ".subversion/" "software/" ".puppet/" "payment-sandbox-22.7-20170124.015220-9-installer.tar.gz" "certs.zip" "xmtag" "sandbox-mocks/" ".tramp_history" "puppet-migratedb/" "payment-sandbox-22.7-SNAPSHOT/" "keyserver/" "pricing/" "qa33" ".elinks/" ".bash_profile" "oauth-440-scripts.tgz" "puppet-xip/" ".viminfo" "wfgxoomcorp2.p12" "test1.sh" "devops-scripts-inf-4824/" "mm/" "xoom@qa24web101" "xip-sandbox-22.7-20170124.015229-9-installer.tar.gz" ".emacs.d/" "devops-scripts/" "devops-scripts-test/" "jprofiler9/" "redis-3.2.8/" "apache-maven-2.2.1/" "backend/" "joav2.sh" "xip/" "testing.sh" "work/" "run.d/" "1" "mgdbagents_upload_s3.sh" "hh" "run/" "input" "WFGXoomCorpCerts/" "Stage/" "frontend.sh.auth-server" "ebin.tgz" "sm_logo.png" "scripts_bak/" "version.txt" "XX" "dfernando/" "check_mount.txt" "qa20conf.zip" ".xx" "test.sh" "temp/" ".rediscli_history" "generalFooter.ftl" "xib-use/" ".facter/" "register-oauth2-clientid.sh" "jce_policy-6.zip" "tmp.txt" "xib-use2.sh" "go/" ".aws/" "environs.txt" "locationsindexer.sh" "san/" "new_xib" "Rebecca/" ".pki/" "python_scripts/" "zk-site-content-versions" "frontend.sh" ".zz" "perfmail-0.1.0-1.x86_64.rpm" "hosts" "test-auth.sh" "amazontools/" "auth-server-logback.xml" "startScript.sh" ".rvm/" "ppp" "results.csv" "witness-deploy.sh" ".svn/" "tt/" "hello.html" "load_average_logger.py" "curator-client-2.9.1.jar" "keystore.jks" "responsivePages.xml" "ManualDeploy/" "mmm" "wfgxoomcorp1.p12" "qaapps/" "dbmigrate/" "local_policy.jar" ".bash_history" "bin/" "payment-flow.htm" ".ansible/" "opt/" "hosts.1" "xcma/" "docker-flow/" "ethan/" "jprofiler-config.xml" "witness/" "xoom@qa19msv101.qa.xoom.com" "remove.sh" ".vim/" "sendGettingStartedDecorator.htm" ".gnupg/" "bootstrapper-22.7-SNAPSHOT.tar.gz.md5" "m2.tgz" ".mysql_history" "settings.xml" "xoom@qa62web101" "ssl.conf" ".psql_history" "versioned-keys.properties" ".lesshst" "mocks/" "c3w/" ".qaconfig" "ework/" "bootstrapper-22.7-SNAPSHOT/" ".bash_logout" "willie/" "charlie/" "auth-server-access.xml" "xip-sandbox-22.7-SNAPSHOT/" ".m2/" "tmp/" "auth-server-start.jps" "ec2-api-tools.zip" "xib-use.sh" ".gitconfig" "bootstrapper-22.7-20170124.015223-9.tar.gz" "ec2-api-tools-1.6.6.3/" "qa62web101" ".cpan/" "logs/" "aws-monitoring/" "frontend.sh.auth-web" "root/" "migratedb/" "speckner/" "US_export_policy.jar" "nc" "list" "etc/" "deploy_new/" "mosborne/" "pvtemp/" "jre/" "harry/" "svc.sh" "new_system_readme.txt")
+
+ ("/ssh:jomendez@goldbox.qa.xoom.com|sudo:xoom@remotehost:/home/xoom/slaves/" (ftp . 413925.501457895) "rolloutLxc/" "build3.sh" "install-jenkins-helpers.sh" "files/" "build-startscript.sh~" ".tramp_history" "build.sh" "slaves-puppet.sh~" "build-docker-clean.sh" "msv.sh" "apply-puppet-slaves.sh" "build2.sh" "otro.sh" "install.sh" "./" "update-package.sh" ".build.sh.swp" "slaves.sh" "apply-puppet-slaves.sh~" "install-masterless-puppet-slaves.sh" "sync-time-slaves.sh" "lxc.sh" "../" "build-startscript.sh" "outage-fix-03-16.sh" "cleancerts.sh" "build-clockSync.sh")
+
+ ("/ssh:jomendez@goldbox.qa.xoom.com|sudo:xoom@remotehost:/home/xoom/slaves/files/" (ftp . 413925.50082110835) ".tramp_history" "ntp.conf" "./" "puppetscript.sh~" "startScript.sh~" "startScript.sh" "docker-clean.sh" "masterlesspuppet.sh~" "masterlesspuppet.sh" "../" "gradle.properties" "puppetscript.sh")
+
+ ("/Users/joaqmendez/" (22737 39294 0 0) "xbmc/" "VirtualBox VMs/" "Public/" "Pictures/" "mygit/" "Music/" "Movies/" "Library/" "jomendez/" "jenkins-infeng-seed-job/" "hola.txt" "emacs/" "Downloads/" "Documents/" "Desktop/" "bin/" "Applications/" ".zshrc.pre-oh-my-zsh" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-LM-GUA-22002223-5.3.1" ".zcompdump-LM-GUA-22002223-5.0.8" ".viminfo" ".vagrant.d/" ".Trash/" ".tmux.conf~" ".tmux.conf" ".subversion/" ".ssh/" ".sh_history" ".rvm/" ".rnd" ".profile" ".packer.d/" ".ovftool.ssldb" ".oracle_jre_usage/" ".oh-my-zsh/" ".lesshst" ".kodi/" ".gitconfig" ".gem/" ".fog" ".emacs.d/" ".DS_Store" ".docker/" ".csp_ovftool_settings.js" ".config/" ".CFUserTextEncoding" ".bash_sessions/" ".bash_history" ".aws/" ".atom/" ".account" "#hola.txt#" "#.gitconfig#" "../" "./")
+
+ ("/Users/joaqmendez/mygit/packer-centos/centos70/file/" (22737 39676 0 0) "puppetscript.sh" "notification.sh" "change_password_mysql.sql" "../" "./")
+
+ ("/Users/joaqmendez/mygit/sys-jenkins/manifests/" (22737 35997 0 0) "slave.pp" "slave/" "params.pp" "master.pp" "init.pp" "#%2Aediff-merge%2A#58244KBw#" "../" "./")
+
+ ("/Users/joaqmendez/mygit/sys-jenkins/" (22737 35140 0 0) "VERSION.properties" "Untitled" "tests/" "templates/" "spec/" "README.md" "Rakefile" "Puppetfile" "OWNERS.md" "metadata.json" "manifests/" "log/" "lib/" "junit/" "Jenkinsfile" "Gemfile.lock" "Gemfile" "files/" "docker/" "config/" ".vagrant/" ".ruby-version" ".ruby-gemset" ".rubocop.yml" ".rspec" ".puppet-lint.rc" ".gitignore" ".git/" ".gemrc" ".fixtures.yml" ".dockerignore" "#Puppetfile#" "#fotest.pp#" "../" "./")
+
+ ("/Users/joaqmendez/mygit/sys-jenkins/config/" (22684 63180 0 0) "image_templates/" "../" "./")
+
+ ("/Users/joaqmendez/mygit/sys-jenkins/files/scripts/system/" (22737 29883 0 0) "rc.local" "puppetscript.sh" "docker-clean" "../" "./")
+
+ ("/Users/joaqmendez/mygit/sys-base/" (22722 64196 0 0) "~/" "tests/" "spec/" "README.md" "Rakefile" "Puppetfile.lock" "Puppetfile" "OWNERS.md" "modules/" "metadata.json" "manifests/" "log/" "lib/" "junit/" "Jenkinsfile" "Gemfile.lock" "Gemfile" "environment.conf" "docker/" "config/" ".vagrant/" ".tmp/" ".ruby-version" ".ruby-gemset" ".rspec" ".librarian/" ".gitignore" ".git/" ".gemrc" ".fixtures.yml" ".dockerignore" "#Puppetfile#" "#.fixtures.yml#" "../" "./")
+
+ ("/Users/joaqmendez/mygit/docker-terraform/terraform/envs/xib/aws/" (22731 62140 0 0) "zkp.tf" "xib.tf" "wxc.tf" "web.tf" "variables.tf" "stc.tf" "red.tf" "rab.tf" "provider.tf" "msv.tf" "mgc.tf" "mdb.tf" "lxc.tf" "lbl.tf" "int.tf" "grd.tf" "els.tf" "dtc.tf" "dlc.tf" "#variables.tf#" "#lxc.tf#" "../" "./")
+
+ ("/Users/joaqmendez/mygit/packer-centos/centos70/templates/xibs/" (22730 47126 0 0) "centos72-100gb-base-docker-lxc-vmware.json" "centos72-100gb-base-docker-lxc-vbox.json" "centos71-ec2-web.json" "centos71-ec2-red.json" "centos71-ec2-rab.json" "centos71-ec2-msv.json" "centos71-ec2-mdb.json" "centos71-ec2-lxc.json" "centos71-ec2-lxc-acceptance-test.json" "centos71-ec2-lbl.json" "centos71-ec2-int.json" "centos71-ec2-base.json" "centos71-ec2-base-lxc.json" "../" "./")
+
+ ("/Users/joaqmendez/mygit/packer-centos/centos70/scripts/" (22730 47126 0 0) "yum_update.sh" "xoom-user-fix.sh" "xoom-repo.sh" "web.sh" "vspherehack.sh" "update.sh" "tf-provision.sh" "sys-repos.sh" "sys-ldap.sh" "sshd.sh" "slaves/" "set-pdt.sh" "selinux.sh" "red.sh" "rab.sh" "puppet.sh" "percona.sh" "openvmtools.sh" "msv.sh" "mdb.sh" "lxc.sh" "lxc-sjc.sh" "lxc-clean.sh" "lxc-atl.sh" "librarian-puppet.sh" "lbl.sh" "int.sh" "hostname.sh" "fluentd-bootstrap.sh" "eng-release.sh" "docker-lvm.sh" "create-xoom-user-xibs.sh" "cloud-init.sh" "cleanup.sh" "#red.sh#" "../" "./")
+
+ ("/Users/joaqmendez/mygit/packer-centos/centos70/" (22730 47126 0 0) "templates/" "scripts/" "REAME.md" "pbuild.sh" "packer_cache/" "packer-post-processor-vagrant-vmware-ovf" "http/" "file/" "artifacts/" "#REAME.md#" "../" "./")
+
+ ("/Users/joaqmendez/mygit/packer-centos/centos70/templates/qa/" (22730 47126 0 0) "centos72-wmware-150-gb-jenkins-slave.json" "centos72-build-cluster.json" "centos72-aws-150-gb-jenkins-slave.json" "centos71-aws-base-jenkins-slave.json" "../" "./")
+
+ ("/Users/joaqmendez/mygit/packer-centos/" (22730 47126 0 0) "README.md" "metadata.json" "centos70/" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/joaqmendez/mygit/docker-terraform/" (22731 62140 0 0) "tf" "terraform/" "README.md" "Makefile" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/joaqmendez/mygit/sys-base/spec/hosts/" (22721 35487 0 0) "zkp_spec.rb" "web_spec.rb" "src_spec.rb" "red_spec.rb" "rab_spec.rb" "pup_spec.rb" "poc_spec.rb" "nag_spec.rb" "mth_spec.rb" "mtd_spec.rb" "msv_spec.rb" "mdb_spec.rb" "lbl_spec.rb" "kubernetes_hosts_spec.rb" "int_spec.rb" "grd_spec.rb" "fsc_spec.rb" "els_spec.rb" "docker_enabled_hosts_spec.rb" "cas_spec.rb" "app_spec.rb" "#docker_enabled_hosts_spec.rb#" "../" "./")
+
+ ("/Users/joaqmendez/mygit/sys-base/spec/" (22721 35495 0 0) "support/" "spec_helper_acceptance.rb" "spec_helper.rb" "shared/" "hosts/" "fixtures/" "acceptance/" "../" "./")
+
+ ("/Users/joaqmendez/mygit/sys-jenkins/files/config/" (22730 63717 0 0) "toolchains.xml" "settings.xml" "ntp.conf" "gradle~" "gradle.properties" "gitconfig" "../" "./")
+
+ ("/Users/joaqmendez/mygit/sys-jenkins/manifests/slave/" (22737 29541 0 0) "scripts.pp" "packages.pp" "logrotate.pp" "dataservices.pp" "config.pp" "certificates.pp" "../" "./")
+
+ ("/Users/joaqmendez/mygit/sys-jenkins/spec/acceptance/" (22737 29541 0 0) "nodesets/" "init_spec.rb" "../" "./")
+
+ ("/Users/joaqmendez/mygit/sys-jenkins/spec/classes/" (22737 29541 0 0) "init_spec.rb" "../" "./")
+
+ ("/Users/joaqmendez/mygit/packer-centos/centos70/scripts/slaves/" (22730 47126 0 0) "jenkins-slave.sh" "hostname.sh" "cleanup.sh" "../" "./")
+
+ ("/Users/joaqmendez/mygit/" (22737 29475 0 0) "xoomtewst/" "xoom-helloworld-api-hapi/" "xharness/" "xbp_packer_centos/" "wizard-template-jenkins-groovy/" "toma.sh" "testing/" "sys_docker/" "sys_ddns/" "sys-users/" "sys-tools/" "sys-telegraf/" "sys-ssl/" "sys-ssh/" "sys-service-proxy/" "sys-repos/" "sys-red/" "sys-nginx/" "sys-lxc/" "sys-logrotate/" "sys-ldap/" "sys-keys/" "sys-jenkins/" "sys-java/" "sys-dirs/" "sys-base/" "synctime-slaves-bash/" "sitecontent/" "rubygems-update-2.2.3.gem" "rpm-zookeeper/" "rpm-jdk8/" "rpm-jdk7/" "rpm-jdk6/" "rpm-base/" "puppetscript.sh~" "puppetscript.sh" "puppetlabs-stdlib/" "puppet/" "packer-centos/" "joabackupterraform/" "jenkins-scripts/" "jenkins-infeng-seed-job/" "jenkins-helper-scripts/" "jenkins-dev-portal/" "java-packager/" "jarvis-client/" "files/" "docker-terraformoriginal/" "docker-terraform/" "docker-puppet/" "docker-flow/" "devops-scripts/" "deploy-localization-api/" "data-redis/" "data-rabbitmq/" "crypto-api/" "create_hosts_terraform.groovy" "coreos-vagrant/" "certs/" "backupterraformjoa/" "backupterraform/" "app-trunk/" "app-docker/" "app-deploy/" "app-dbbootstrap/" "app-common/" ".DS_Store" "#puppetscript.sh#" "../" "./")
+
+ ("/Users/joaqmendez/xbmc/build/addons/" (22300 38977 0 0) "xbmc.webinterface/" "xbmc.python/" "xbmc.pvr/" "xbmc.metadata/" "xbmc.json/" "xbmc.gui/" "xbmc.core/" "xbmc.codec/" "xbmc.audioencoder/" "xbmc.addon/" "webinterface.default/" "visualization.waveform/" "visualization.spectrum/" "visualization.shadertoy/" "visualization.projectm/" "visualization.goom/" "visualization.fishbmc/" "skin.confluence/" "share/" "service.xbmc.versioncheck/" "script.module.pil/" "screensaver.xbmc.builtin.dim/" "screensaver.xbmc.builtin.black/" "screensaver.pingpong/" "resource.uisounds.confluence/" "resource.language.en_gb/" "resource.images.weathericons.default/" "repository.xbmc.org/" "pvr.wmc/" "pvr.vuplus/" "pvr.vdr.vnsi/" "pvr.vbox/" "pvr.stalker/" "pvr.pctv/" "pvr.njoy/" "pvr.nextpvr/" "pvr.mythtv/" "pvr.mediaportal.tvserver/" "pvr.iptvsimple/" "pvr.hts/" "pvr.hdhomerun/" "pvr.filmon/" "pvr.dvbviewer/" "pvr.dvblink/" "pvr.demo/" "pvr.argustv/" "metadata.tvdb.com/" "metadata.themoviedb.org/" "metadata.local/" "metadata.common.themoviedb.org/" "metadata.common.theaudiodb.com/" "metadata.common.musicbrainz.org/" "metadata.common.imdb.com/" "metadata.common.htbackdrops.com/" "metadata.common.fanart.tv/" "metadata.common.allmusic.com/" "metadata.artists.universal/" "metadata.album.universal/" "library.xbmc.pvr/" "library.xbmc.codec/" "library.xbmc.addon/" "library.kodi.guilib/" "library.kodi.audioengine/" "library.kodi.adsp/" "lib/" "kodi.resource/" "kodi.guilib/" "kodi.audiodecoder/" "kodi.adsp/" "audioencoder.xbmc.builtin.wma/" "audioencoder.xbmc.builtin.aac/" "audioencoder.wav/" "audioencoder.vorbis/" "audioencoder.lame/" "audioencoder.flac/" "audiodecoder.vgmstream/" "audiodecoder.timidity/" "audiodecoder.stsound/" "audiodecoder.snesapu/" "audiodecoder.sidplay/" "audiodecoder.nosefart/" "audiodecoder.modplug/" "adsp.freesurround/" "adsp.basic/" ".gitmodules" ".gitignore" "../" "./")
 
  ("/Users/joaqmendez/xbmc/" (22730 63717 0 0) "xoomsshconfig" "rootsshconfig" "LICENSE.GPL" "Libraries/" "kodi.icns" "build/" ".DS_Store" "../" "./")
 
  ("/Users/joaqmendez/xbmc/build/" (22708 40026 0 0) "userdata/" "tools/" "test.sh" "system/" "nohup.out" "media/" "lib/" "Kodi" "extras/" "addons/" ".DS_Store" "#puppet-slaves.sh#" "../" "./")
 
- ("/Users/joaqmendez/mygit/packer-centos/centos70/templates/qa/" (22723 6012 0 0) "centos72-wmware-150-gb-jenkins-slave.json" "centos72-build-cluster.json" "centos72-aws-150-gb-jenkins-slave.json" "centos71-aws-base-jenkins-slave.json" "#centos72-wmware-150-gb-jenkins-slave.json#" "../" "./")
-
  ("/Users/joaqmendez/mygit/sys-base/spec/acceptance/" (22721 35495 0 0) "zkp_spec.rb" "wxc_spec.rb" "web_spec.rb" "stc_spec.rb" "red_spec.rb" "rab_spec.rb" "pup_spec.rb" "nodesets/" "msv_spec.rb" "mgt_spec.rb" "mgc_spec.rb" "mdb_spec.rb" "mdb103_spec.rb" "mdb102_spec.rb" "lxc_spec.rb" "lbl_spec.rb" "int_spec.rb" "grd_spec.rb" "els_spec.rb" "dtc_spec.rb" "dlc_spec.rb" "../" "./")
 
- ("/Users/joaqmendez/mygit/" (22721 35702 0 0) "xoomtewst/" "xoom-helloworld-api-hapi/" "xharness/" "xbp_packer_centos/" "wizard-template-jenkins-groovy/" "toma.sh" "testing/" "sys_docker/" "sys_ddns/" "sys-users/" "sys-tools/" "sys-telegraf/" "sys-ssl/" "sys-ssh/" "sys-service-proxy/" "sys-repos/" "sys-red/" "sys-nginx/" "sys-lxc/" "sys-logrotate/" "sys-ldap/" "sys-jenkins/" "sys-java/" "sys-dirs/" "sys-base/" "synctime-slaves-bash/" "sitecontent/" "rubygems-update-2.2.3.gem" "rpm-zookeeper/" "rpm-jdk8/" "rpm-jdk7/" "rpm-jdk6/" "rpm-base/" "puppetscript.sh~" "puppetscript.sh" "puppetlabs-stdlib/" "puppet/" "packer-centos/" "joabackupterraform/" "jenkins-scripts/" "jenkins-infeng-seed-job/" "jenkins-helper-scripts/" "jenkins-dev-portal/" "java-packager/" "jarvis-client/" "files/" "docker-terraformoriginal/" "docker-terraform/" "docker-puppet/" "docker-flow/" "devops-scripts/" "deploy-localization-api/" "data-redis/" "data-rabbitmq/" "crypto-api/" "create_hosts_terraform.groovy" "coreos-vagrant/" "certs/" "backupterraformjoa/" "backupterraform/" "app-trunk/" "app-docker/" "app-deploy/" "app-dbbootstrap/" "app-common/" ".DS_Store" ".#puppetscript.sh" "#puppetscript.sh#" "../" "./")
-
- ("/Users/joaqmendez/mygit/packer-centos/" (22721 54706 0 0) "README.md" "metadata.json" "debug.log" "centos70/" ".gitignore" ".git/" "../" "./")
-
- ("/Users/joaqmendez/mygit/packer-centos/centos70/scripts/slaves/" (22722 60087 0 0) "jenkins-slave.sh" "hostname.sh" "cleanup.sh" "../" "./")
-
- ("/Users/joaqmendez/mygit/packer-centos/centos70/scripts/" (22721 49189 0 0) "yum_update.sh" "xoom-user-fix.sh" "xoom-repo.sh" "web.sh" "vspherehack.sh" "update.sh" "tf-provision.sh" "sys-repos.sh" "sys-ldap.sh" "sshd.sh" "slaves/" "set-pdt.sh" "selinux.sh" "red.sh" "rab.sh" "puppet.sh" "percona.sh" "openvmtools.sh" "msv.sh" "mdb.sh" "lxc.sh" "lxc-sjc.sh" "lxc-clean.sh" "lxc-atl.sh" "librarian-puppet.sh" "lbl.sh" "int.sh" "hostname.sh" "fluentd-bootstrap.sh" "eng-release.sh" "docker-lvm.sh" "create-xoom-user-xibs.sh" "cloud-init.sh" "cleanup.sh" "#red.sh#" "../" "./")
-
- ("/Users/joaqmendez/mygit/packer-centos/centos70/" (22721 56003 0 0) "templates/" "scripts/" "REAME.md" "pbuild.sh" "packer_cache/" "packer-post-processor-vagrant-vmware-ovf" "http/" "file/" "debug.log" "artifacts/" "#REAME.md#" "../" "./")
-
  ("/Users/joaqmendez/mygit/packer-centos/centos70/templates/" (22721 49047 0 0) "xibs/" "stage/" "qa/" "prod/" "perf/" "../" "./")
-
- ("/Users/joaqmendez/mygit/sys-jenkins/" (22720 45718 0 0) "VERSION.properties" "Untitled" "tests/" "templates/" "spec/" "README.md" "Rakefile" "Puppetfile" "OWNERS.md" "metadata.json" "manifests/" "log/" "lib/" "junit/" "Jenkinsfile" "Gemfile.lock" "Gemfile" "files/" "docker/" "config/" ".vagrant/" ".ruby-version" ".ruby-gemset" ".rubocop.yml" ".rspec" ".puppet-lint.rc" ".gitignore" ".git/" ".gemrc" ".fixtures.yml" ".dockerignore" "#Puppetfile#" "../" "./")
 
  ("/Users/joaqmendez/mygit/sys-lxc/manifests/" (22721 35704 0 0) "params.pp" "init.pp" "base.pp" "../" "./")
 
  ("/Users/joaqmendez/mygit/sys-lxc/" (22721 35704 0 0) "VERSION.properties" "tests/" "spec/" "README.md" "Rakefile" "Puppetfile" "OWNERS.md" "metadata.json" "manifests/" "lib/" "Jenkinsfile" "Gemfile" "docker/" "config/" ".ruby-version" ".ruby-gemset" ".rubocop.yml" ".rspec" ".puppet-lint.rc" ".gitignore" ".git/" ".gemrc" ".fixtures.yml" ".dockerignore" "../" "./")
 
- ("/Users/joaqmendez/mygit/sys-base/" (22721 35495 0 0) "~/" "tests/" "spec/" "README.md" "Rakefile" "Puppetfile.lock" "Puppetfile" "OWNERS.md" "modules/" "metadata.json" "manifests/" "log/" "lib/" "junit/" "Jenkinsfile" "Gemfile.lock" "Gemfile" "environment.conf" "docker/" "config/" ".vagrant/" ".tmp/" ".ruby-version" ".ruby-gemset" ".rspec" ".librarian/" ".gitignore" ".git/" ".gemrc" ".fixtures.yml" ".dockerignore" "#Puppetfile#" "#.fixtures.yml#" "../" "./")
-
  ("/Users/joaqmendez/mygit/sys-base/manifests/" (22721 35495 0 0) "site.pp" "../" "./")
-
- ("/Users/joaqmendez/mygit/sys-jenkins/files/scripts/system/" (22714 279 0 0) "rc.local" "docker-clean" "../" "./")
-
- ("/Users/joaqmendez/mygit/sys-jenkins/manifests/slave/" (22720 43044 0 0) "scripts.pp" "packages.pp" "logrotate.pp" "dataservices.pp" "config.pp" "certificates.pp" "../" "./")
-
- ("/Users/joaqmendez/mygit/sys-jenkins/spec/acceptance/" (22720 40235 0 0) "nodesets/" "init_spec.rb" "../" "./")
-
- ("/Users/joaqmendez/mygit/sys-jenkins/files/config/" (22720 39226 0 0) "toolchains.xml" "settings.xml" "ntp.conf" "gradle~" "gradle.properties" "gitconfig" "../" "./")
-
- ("/Users/joaqmendez/mygit/sys-jenkins/spec/classes/" (22720 39020 0 0) "init_spec.rb" "../" "./")
-
- ("/Users/joaqmendez/mygit/docker-terraform/terraform/envs/xib/aws/" (22719 39500 0 0) "zkp.tf" "xib.tf" "wxc.tf" "web.tf" "variables.tf" "stc.tf" "red.tf" "rab.tf" "provider.tf" "msv.tf" "mgc.tf" "mdb.tf" "lxc.tf" "int.tf" "grd.tf" "els.tf" "dtc.tf" "dlc.tf" "#variables.tf#" "#lxc.tf#" "../" "./")
-
- ("/Users/joaqmendez/mygit/docker-terraform/" (22719 39500 0 0) "tf" "terraform/" "README.md" "Makefile" "0.6.14/" ".gitignore" ".git/" ".docker-flow" "../" "./")
 
  ("/Users/joaqmendez/mygit/sys-jenkins/spec/support/" (22712 48494 0 0) "string.rb" "rsa_private_key.rb" "librarian_puppet.rb" "hosts.rb~" "hosts.rb" "docker.rb" "../" "./")
 
@@ -166,13 +189,7 @@
 
  ("/Users/joaqmendez/mygit/sys-jenkins/spec/" (22712 48494 0 0) "support/" "spec_helper_acceptance.rb" "spec_helper.rb" "fixtures/" "classes/" "acceptance/" "#spec_helper_acceptance.rb#" "../" "./")
 
- ("/Users/joaqmendez/mygit/sys-base/spec/hosts/" (22710 1199 0 0) "zkp_spec.rb" "web_spec.rb" "src_spec.rb" "red_spec.rb" "rab_spec.rb" "pup_spec.rb" "poc_spec.rb" "nag_spec.rb" "mth_spec.rb" "mtd_spec.rb" "msv_spec.rb" "mdb_spec.rb" "lbl_spec.rb" "kubernetes_hosts_spec.rb" "int_spec.rb" "grd_spec.rb" "fsc_spec.rb" "els_spec.rb" "docker_enabled_hosts_spec.rb" "cas_spec.rb" "app_spec.rb" "#docker_enabled_hosts_spec.rb#" "../" "./")
-
  ("/Users/joaqmendez/mygit/sys-base/spec/support/" (22712 18832 0 0) "string.rb" "librarian_puppet.rb" "hosts.rb" "docker.rb" "#hosts.rb#" "../" "./")
-
- ("/Users/joaqmendez/mygit/sys-jenkins/manifests/" (22708 41321 0 0) "slave.pp" "slave/" "params.pp" "master.pp" "init.pp" "../" "./")
-
- ("/Users/joaqmendez/mygit/sys-base/spec/" (22710 1189 0 0) "support/" "spec_helper_acceptance.rb" "spec_helper.rb" "shared/" "hosts/" "fixtures/" "acceptance/" "../" "./")
 
  ("/Users/joaqmendez/mygit/sys-jenkins/files/" (22708 41321 0 0) "scripts/" "config/" "certs/" "../" "./")
 
@@ -197,10 +214,6 @@
  ("/Users/joaqmendez/mygit/certs/ssl/" (22684 63167 0 0) "xoom.key" "xoom.crt" "selfsigned_ca_cert.pem" "../" "./")
 
  ("/Users/joaqmendez/mygit/certs/" (22684 63167 0 0) "ssl/" "README.md" ".gitignore" ".git/" "../" "./")
-
- ("/Users/joaqmendez/mygit/packer-centos/centos70/templates/xibs/" (22701 48502 0 0) "centos72-100gb-base-docker-lxc-vmware.json" "centos72-100gb-base-docker-lxc-vbox.json" "centos71-ec2-web.json" "centos71-ec2-red.json" "centos71-ec2-rab.json" "centos71-ec2-msv.json" "centos71-ec2-mdb.json" "centos71-ec2-lxc.json" "centos71-ec2-lxc-acceptance-test.json" "centos71-ec2-lbl.json" "centos71-ec2-int.json" "centos71-ec2-base.json" "centos71-ec2-base-lxc.json" "../" "./")
-
- ("/Users/joaqmendez/mygit/packer-centos/centos70/file/" (22701 48502 0 0) "notification.sh" "change_password_mysql.sql" "../" "./")
 
  ("/Users/joaqmendez/mygit/sys-red/spec/acceptance/nodesets/" (22699 30177 0 0) "ec2.yml" "ec2-centos-71.yml" "docker.yml" "default.yml" "centos-72.yml" "../" "./")
 

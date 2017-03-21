@@ -1,2 +1,10 @@
 #autosave files
 auto-save-list
+\#*\#
+.\#*
+*#*
+*~*
+*.*~
+tramp
+ido.last
+ido.last~
