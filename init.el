@@ -33,6 +33,7 @@
  '(package-selected-packages
    (quote
     (autopair undo-tree groovy-mode yaml-mode indent-tools terraform-mode wrap-region multiple-cursors)))
+ '(server-mode t)
  '(show-paren-mode t)
  '(wrap-region-global-mode t nil (wrap-region)))
 (custom-set-faces
