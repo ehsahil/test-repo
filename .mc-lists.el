@@ -3,12 +3,20 @@
 
 (setq mc/cmds-to-run-for-all
       '(
+	autopair-insert-or-skip-quote
 	keyboard-escape-quit
+	kill-rectangle
 	kill-region
 	))
 
 (setq mc/cmds-to-run-once
       '(
+	autopair-newline
 	electric-newline-and-maybe-indent
+	ido-switch-buffer
+	repeat
+	suspend-frame
 	tab-to-tab-stop
+	undo-tree-visualize
+	upcase-region
 	))

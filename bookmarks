@@ -1,0 +1,15 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("local-projects"
+ (filename . "~/mygit/")
+ (front-context-string . "certs\n  drwxr-xr")
+ (rear-context-string . "04 Feb  9 17:09 ")
+ (position . 998))
+("goldbox-as-xoom"
+ (filename . "/ssh:jomendez@goldbox.qa.xoom.com|sudo:xoom@remotehost:/home/xoom/")
+ (front-context-string . "auth-server-star")
+ (rear-context-string . "34 Sep  2  2015 ")
+ (position . 926))
+)
