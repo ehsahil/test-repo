@@ -2,7 +2,12 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("local-projects"
+(("sys_docker"
+ (filename . "~/mygit/sys_docker/")
+ (front-context-string . ".\n  drwxr-xr-x  ")
+ (rear-context-string . "18 Jun 21 15:14 ")
+ (position . 145))
+("local-projects"
  (filename . "~/mygit/")
  (front-context-string . "certs\n  drwxr-xr")
  (rear-context-string . "04 Feb  9 17:09 ")

@@ -1,0 +1,73 @@
+
+;; ----- smex-history -----
+(
+ complete-tag
+ linum-mode
+ multiple-cursors-mode
+ mc/edit-lines
+ list-packages
+ flycheck-mode
+ comment-box
+)
+
+;; ----- smex-data -----
+(
+ (apropos-command . 2)
+ (Info-exit . 1)
+ (comment-box . 5)
+ (eval-buffer . 3)
+ (ido-vertical-mode . 2)
+ (smex . 1)
+ (comment-region . 9)
+ (package-install . 2)
+ (helm-mode . 1)
+ (linum-mode . 18)
+ (mc/edit-lines . 25)
+ (uncomment-region . 6)
+ (list-packages . 15)
+ (flymake-puppet-load . 6)
+ (flymake-compile . 2)
+ (flycheck-mode . 9)
+ (gnus-bookmark-bmenu-list . 1)
+ (mc/mark-next-like-this . 1)
+ (mc/add-cursor-on-click . 7)
+ (mc/toggle-cursor-on-click . 8)
+ (multiple-cursors-mode . 12)
+ (mc/toggle-cursor-at-point . 3)
+ (copy-rectangle-as-kill . 1)
+ (yank-rectangle . 6)
+ (copy-rectangle-to-register . 1)
+ (mc/edit-ends-of-lines . 1)
+ (join-line . 2)
+ (make-directory . 1)
+ (dired-create-directory . 1)
+ (flymake-json-load . 4)
+ (rectangle-mark-mode . 3)
+ (set-rectangular-region-anchor . 11)
+ (rectangular-region-mode . 1)
+ (ido-dired . 1)
+ (ido-mode . 1)
+ (cua-mode . 1)
+ (open-rectangle . 1)
+ (json-pretty-print-buffer-ordered . 4)
+ (json-pretty-print . 1)
+ (compile . 2)
+ (shell . 2)
+ (describe-prefix-bindings . 2)
+ (load-file . 6)
+ (ido-describe-prefix-bindings . 3)
+ (ido-describe-prefix-bindings-mode . 5)
+ (customize-variable . 7)
+ (ido-describe-bindings . 2)
+ (minibuffer-insert-file-name-at-point . 2)
+ (yaml-mode . 2)
+ (edit-tab-stops . 2)
+ (puppet-mode . 3)
+ (highlight-indent-guides-mode . 19)
+ (highlight-indent-guides-auto-set-faces . 6)
+ (customize . 1)
+ (package-list-packages . 2)
+ (yaml-mode-version . 1)
+ (flycheck-yamllint-setup . 1)
+ (complete-tag . 1)
+)

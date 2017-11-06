@@ -1,0 +1,330 @@
+build-dev-01.xoom.com:
+  nodename: build-dev-01.qa.xoom.com
+  hostname: build-dev-01.qa.xoom.com
+  osVersion: 3.10.0-327.el7.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: Rundeck server node
+  osName: Linux
+  username: xoom
+  tags: ''
+build-dev-02.qa.xoom.com:
+  nodename: build-dev-02.qa.xoom.com
+  hostname: build-dev-02.qa.xoom.com
+  osVersion: 3.10.0-327.el7.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: Rundeck server node
+  osName: Linux
+  username: xoom
+  tags: ''
+build-dev-03.qa.xoom.com:
+  nodename: build-dev-03.qa.xoom.com
+  hostname: build-dev-03.qa.xoom.com
+  osVersion: 3.10.0-327.el7.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: Rundeck server node
+  osName: Linux
+  username: xoom
+  tags: ''
+build-dev-04.qa.xoom.com:
+  nodename: build-dev-04.qa.xoom.com
+  hostname: build-dev-04.qa.xoom.com
+  osVersion: 3.10.0-327.el7.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: Rundeck server node
+  osName: Linux
+  username: xoom
+  tags: ''
+build-dev-05.qa.xoom.com:
+  nodename: build-dev-05.qa.xoom.com
+  hostname: build-dev-05.qa.xoom.com
+  osVersion: 3.10.0-327.el7.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: Rundeck server node
+  osName: Linux
+  username: xoom
+  tags: ''
+build-dev-06.qa.xoom.com:
+  nodename: build-dev-06.qa.xoom.com
+  hostname: build-dev-06.qa.xoom.com
+  osVersion: 3.10.0-327.el7.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: Rundeck server node
+  osName: Linux
+  username: xoom
+  tags: ''
+build-dev-07.qa.xoom.com:
+  nodename: build-dev-07.qa.xoom.com
+  hostname: build-dev-07.qa.xoom.com
+  osVersion: 3.10.0-327.el7.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: Rundeck server node
+  osName: Linux
+  username: xoom
+  tags: ''
+build-dev-08.qa.xoom.com:
+  nodename: build-dev-08.qa.xoom.com
+  hostname: build-dev-08.qa.xoom.com
+  osVersion: 3.10.0-327.el7.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: Rundeck server node
+  osName: Linux
+  username: xoom
+  tags: ''
+build-dev-09.qa.xoom.com:
+  nodename: build-dev-09.qa.xoom.com
+  hostname: build-dev-09.qa.xoom.com
+  osVersion: 3.10.0-327.el7.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: Rundeck server node
+  osName: Linux
+  username: xoom
+  tags: ''
+build-dev-10.qa.xoom.com:
+  nodename: build-dev-10.qa.xoom.com
+  hostname: build-dev-10.qa.xoom.com
+  osVersion: 3.10.0-327.el7.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: Rundeck server node
+  osName: Linux
+  username: xoom
+  tags: ''
+build-dev-11.qa.xoom.com:
+  nodename: build-dev-11.qa.xoom.com
+  hostname: build-dev-11.qa.xoom.com
+  osVersion: 3.10.0-327.el7.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: Rundeck server node
+  osName: Linux
+  username: xoom
+  tags: ''
+build-dev-12.qa.xoom.com:
+  nodename: build-dev-12.qa.xoom.com
+  hostname: build-dev-12.qa.xoom.com
+  osVersion: 3.10.0-327.el7.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: Rundeck server node
+  osName: Linux
+  username: xoom
+  tags: ''
+build-dev-13.qa.xoom.com:
+  nodename: build-dev-13.qa.xoom.com
+  hostname: build-dev-13.qa.xoom.com
+  osVersion: 3.10.0-327.el7.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: Rundeck server node
+  osName: Linux
+  username: xoom
+  tags: ''
+build-dev-14.qa.xoom.com:
+  nodename: build-dev-14.qa.xoom.com
+  hostname: build-dev-14.qa.xoom.com
+  osVersion: 3.10.0-327.el7.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: Rundeck server node
+  osName: Linux
+  username: xoom
+  tags: ''
+build-dev-15.qa.xoom.com:
+  nodename: build-dev-15.qa.xoom.com
+  hostname: build-dev-15.qa.xoom.com
+  osVersion: 3.10.0-327.el7.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: Rundeck server node
+  osName: Linux
+  username: xoom
+  tags: ''
+build-dev-16.qa.xoom.com:
+  nodename: build-dev-16.qa.xoom.com
+  hostname: build-dev-16.qa.xoom.com
+  osVersion: 3.10.0-327.el7.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: Rundeck server node
+  osName: Linux
+  username: xoom
+  tags: ''
+build-dev-17.qa.xoom.com:
+  nodename: build-dev-17.qa.xoom.com
+  hostname: build-dev-17.qa.xoom.com
+  osVersion: 3.10.0-327.el7.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: Rundeck server node
+  osName: Linux
+  username: xoom
+  tags: ''
+build-dev-18.qa.xoom.com:
+  nodename: build-dev-18.qa.xoom.com
+  hostname: build-dev-18.qa.xoom.com
+  osVersion: 3.10.0-327.el7.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: Rundeck server node
+  osName: Linux
+  username: xoom
+  tags: ''
+build-dev-19.qa.xoom.com:
+  nodename: build-dev-19.qa.xoom.com
+  hostname: build-dev-19.qa.xoom.com
+  osVersion: 3.10.0-327.el7.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: Rundeck server node
+  osName: Linux
+  username: xoom
+  tags: ''
+build-dev-20.qa.xoom.com:
+  nodename: build-dev-20.qa.xoom.com
+  hostname: build-dev-20.qa.xoom.com
+  osVersion: 3.10.0-327.el7.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: Rundeck server node
+  osName: Linux
+  username: xoom
+  tags: ''
+build-dev-21.qa.xoom.com:
+  nodename: build-dev-21.qa.xoom.com
+  hostname: build-dev-21.qa.xoom.com
+  osVersion: 3.10.0-327.el7.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: Rundeck server node
+  osName: Linux
+  username: xoom
+  tags: ''
+build-dev-22.qa.xoom.com:
+  nodename: build-dev-22.qa.xoom.com
+  hostname: build-dev-22.qa.xoom.com
+  osVersion: 3.10.0-327.el7.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: Rundeck server node
+  osName: Linux
+  username: xoom
+  tags: ''
+build-dev-23.qa.xoom.com:
+  nodename: build-dev-23.qa.xoom.com
+  hostname: build-dev-23.qa.xoom.com
+  osVersion: 3.10.0-327.el7.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: Rundeck server node
+  osName: Linux
+  username: xoom
+  tags: ''
+build-dev-24.qa.xoom.com:
+  nodename: build-dev-24.qa.xoom.com
+  hostname: build-dev-24.qa.xoom.com
+  osVersion: 3.10.0-327.el7.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: Rundeck server node
+  osName: Linux
+  username: xoom
+  tags: ''
+build-dev-25.qa.xoom.com:
+  nodename: build-dev-25.qa.xoom.com
+  hostname: build-dev-25.qa.xoom.com
+  osVersion: 3.10.0-327.el7.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: Rundeck server node
+  osName: Linux
+  username: xoom
+  tags: ''
+build-dev-26.qa.xoom.com:
+  nodename: build-dev-26.qa.xoom.com
+  hostname: build-dev-26.qa.xoom.com
+  osVersion: 3.10.0-327.el7.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: Rundeck server node
+  osName: Linux
+  username: xoom
+  tags: ''
+build-dev-27.qa.xoom.com:
+  nodename: build-dev-27.qa.xoom.com
+  hostname: build-dev-27.qa.xoom.com
+  osVersion: 3.10.0-327.el7.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: Rundeck server node
+  osName: Linux
+  username: xoom
+  tags: ''
+build-dev-28.qa.xoom.com:
+  nodename: build-dev-28.qa.xoom.com
+  hostname: build-dev-28.qa.xoom.com
+  osVersion: 3.10.0-327.el7.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: Rundeck server node
+  osName: Linux
+  username: xoom
+  tags: ''
+build-dev-29.qa.xoom.com:
+  nodename: build-dev-29.qa.xoom.com
+  hostname: build-dev-29.qa.xoom.com
+  osVersion: 3.10.0-327.el7.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: Rundeck server node
+  osName: Linux
+  username: xoom
+  tags: ''
+build-dev-30.qa.xoom.com:
+  nodename: build-dev-30.qa.xoom.com
+  hostname: build-dev-30.qa.xoom.com
+  osVersion: 3.10.0-327.el7.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: Rundeck server node
+  osName: Linux
+  username: xoom
+  tags: ''
+build-dev-31.qa.xoom.com:
+  nodename: build-dev-31.qa.xoom.com
+  hostname: build-dev-31.qa.xoom.com
+  osVersion: 3.10.0-327.el7.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: Rundeck server node
+  osName: Linux
+  username: xoom
+  tags: ''
+build-dev-32.qa.xoom.com:
+  nodename: build-dev-32.qa.xoom.com
+  hostname: build-dev-32.qa.xoom.com
+  osVersion: 3.10.0-327.el7.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: Rundeck server node
+  osName: Linux
+  username: xoom
+  tags: ''
+build-dev-33.qa.xoom.com:
+  nodename: build-dev-33.qa.xoom.com
+  hostname: build-dev-33.qa.xoom.com
+  osVersion: 3.10.0-327.el7.x86_64
+  osFamily: unix
+  osArch: amd64
+  description: Rundeck server node
+  osName: Linux
+  username: xoom
+  tags: ''

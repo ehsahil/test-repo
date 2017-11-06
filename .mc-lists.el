@@ -7,16 +7,21 @@
 	keyboard-escape-quit
 	kill-rectangle
 	kill-region
+	sh-assignment
+	smex
 	))
 
 (setq mc/cmds-to-run-once
       '(
 	autopair-newline
 	electric-newline-and-maybe-indent
+	ido-kill-buffer
 	ido-switch-buffer
 	repeat
 	suspend-frame
 	tab-to-tab-stop
 	undo-tree-visualize
 	upcase-region
+	xterm-paste
+	yank-rectangle
 	))
