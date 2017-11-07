@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ global-set-key
+ indent-region
  complete-tag
  linum-mode
  multiple-cursors-mode
  mc/edit-lines
  list-packages
- flycheck-mode
- comment-box
 )
 
 ;; ----- smex-data -----
@@ -70,4 +70,6 @@
  (yaml-mode-version . 1)
  (flycheck-yamllint-setup . 1)
  (complete-tag . 1)
+ (indent-region . 4)
+ (global-set-key . 1)
 )

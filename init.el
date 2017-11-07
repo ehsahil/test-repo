@@ -101,7 +101,7 @@
 (global-set-key (kbd "C-c m a") 'mc/mark-all-like-this)
 (global-set-key (kbd "C-c m i n") 'mc/insert-numbers)
 (global-set-key (kbd "C-c m i l") 'mc/insert-letterss)
-(setq tab-always-indent ‘complete)
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; toggle cursor at point ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -154,8 +154,4 @@
 (add-hook 'yaml-mode-hook 'flycheck-mode)
 (add-hook 'puppet-mode-hook 'flycheck-mode)
 (setq highlight-indent-guides-method 'fill)
-
-;;;;;;;;;;;;;;;;;;;;;;;
-;; flycheck for yaml ;;
-;;;;;;;;;;;;;;;;;;;;;;;
-
+ (global-set-key [9] (quote indent-region))
