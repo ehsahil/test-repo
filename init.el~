@@ -3,7 +3,6 @@
 ;; installed packages.  Don't delete this line.  If you don't want it,
 ;; just comment it out by adding a semicolon to the start of the line.
 ;; You may delete these explanatory comments.
-
 (package-initialize)
 (setq-default indent-tabs-mode nil)
 (setq-default neo-show-hidden-files t)
@@ -15,6 +14,19 @@
    t)
   (package-initialize))
 (add-to-list 'load-path "~/.emacs.d/lisp/")
+;;
+;; make emacs to copy to clipboard
+;;
+(defun copy-from-osx ()
+   (shell-command-to-string "pbpaste"))
+(defun paste-to-osx (text &optional push)
+   (let ((process-connection-type nil))
+      (let ((proc (start-process "pbcopy" "*Messages*" "pbcopy")))
+         (process-send-string proc text)
+         (process-send-eof proc))))
+
+(setq interprogram-cut-function 'paste-to-osx)
+(setq interprogram-paste-function 'copy-from-osx)
 
 ;;
 ;; Setup puppet-mode for autoloading
@@ -38,10 +50,11 @@
    (quote
     ("e7caf161142e749e495afaee7fc735a6f48e5addd8be097fe5288bbe1da68409" default)))
  '(global-undo-tree-mode t)
+ '(highlight-indent-guides-auto-enabled t)
  '(ido-vertical-mode t)
  '(package-selected-packages
    (quote
-    (highlight-indent-guides ido-describe-bindings flymake-json flymake-puppet helm-mode-manager flx-ido ido-hacks ido-vertical-mode smex flycheck recover-buffers smooth-scrolling esxml puppet-mode js-auto-beautify go-autocomplete auto-complete go-mode exec-path-from-shell yaml-mode wrap-region undo-tree terraform-mode multiple-cursors indent-tools groovy-mode autopair))))
+    (go-guru markdown-mode flymd nginx-mode flycheck-bashate dockerfile-mode flycheck-yamllint highlight-indent-guides ido-describe-bindings flymake-json flymake-puppet helm-mode-manager flx-ido ido-hacks ido-vertical-mode smex flycheck recover-buffers smooth-scrolling esxml puppet-mode js-auto-beautify go-autocomplete auto-complete go-mode exec-path-from-shell yaml-mode wrap-region undo-tree terraform-mode multiple-cursors indent-tools autopair))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -78,7 +91,6 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; go autocomplete customization ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
 (defun my-go-mode-hook ()
   ; Call Gofmt before saving
   (add-hook 'before-save-hook 'gofmt-before-save)
@@ -96,12 +108,14 @@
 ;; multiple cursors keybidings ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+(global-set-key (kbd "C-c m m ") 'multiple-cursors-mode)
 (global-set-key (kbd "C-c m e ") 'mc/edit-lines)
 (global-set-key (kbd "C-c m n") 'mc/mark-next-like-this)
 (global-set-key (kbd "C-c m p") 'mc/mark-previous-like-this)
 (global-set-key (kbd "C-c m a") 'mc/mark-all-like-this)
 (global-set-key (kbd "C-c m i n") 'mc/insert-numbers)
 (global-set-key (kbd "C-c m i l") 'mc/insert-letterss)
+(global-set-key (kbd "C-c C-o j") 'go-guru-definition)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; toggle cursor at point ;;
@@ -121,9 +135,9 @@
 (add-to-list 'mc/cmds-to-run-once 'mc/toggle-cursor-at-point)
 (add-to-list 'mc/cmds-to-run-once 'multiple-cursors-mode)
 
-(global-set-key (kbd "C-i") 'mc/toggle-cursor-at-point)
+;;(global-set-key (kbd "C-c") 'mc/toggle-cursor-at-point)
 ;;(global-set-key (kbd "C-u") 'multiple-cursors-mode)
-
+(global-set-key (kbd "C-i") 'mc/toggle-cursor-at-point)
 ;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; scroll line by line ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -133,8 +147,7 @@
 ;;;;;;;;;;;;;;;;;;;;;
 ;; more ido for me ;;
 ;;;;;;;;;;;;;;;;;;;;;
-
-(ido-mode 1)							       
+(ido-mode 1)
 (require 'ido-hacks nil t)					       
 (if (commandp 'ido-vertical-mode) 				       
     (progn							       
@@ -144,3 +157,15 @@
     (global-set-key (kbd "M-x") 'smex))			       
 (if (commandp 'flx-ido-mode)					       
     (flx-ido-mode 1))					       
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; indent highlihgt mode ;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(setq highlight-indent-guides-auto-enabled t)
+(add-hook 'prog-mode-hook 'highlight-indent-guides-mode)
+(add-hook 'puppet-mode-hook 'highlight-indent-guides-mode)
+(add-hook 'yaml-mode-hook 'highlight-indent-guides-mode)
+(add-hook 'prog-mode-hook 'flycheck-mode)
+(add-hook 'yaml-mode-hook 'flycheck-mode)
+(add-hook 'puppet-mode-hook 'flycheck-mode)
+(setq highlight-indent-guides-method 'fill)

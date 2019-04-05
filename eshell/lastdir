@@ -1,0 +1,12 @@
+/Users/joaqmendez
+/ssh:root@artlbl001.engtools.xoom.com:/etc/haproxy
+/ssh:root@artlbl001.engtools.xoom.com:/etc
+/ssh:root@artlbl001.engtools.xoom.com:/root
+/ssh:root@build-plat-01.qa.xoom.com:/opt/xoom/apps/jenkins-helpers
+/ssh:jomendez@10.7.248.10:/export/home/jomendez
+/ssh:jomendez@10.7.248.10:/export/home/jomendez/packer
+/ssh:jomendez@10.7.248.10:/export/home/jomendez/packer/packer-centos
+/ssh:artpdb101.engtools.xoom.com|sudo:root@remotehost:/etc/docker
+/ssh:artpdb101.engtools.xoom.com|sudo:root@remotehost:/etc/td-agent
+~/mygit/jfrog-cli
+/ssh:jomendez@jmp001.sjc.xoom.com|ssh:jomendez@10.7.8.36|sudo:root@remotehost:/home

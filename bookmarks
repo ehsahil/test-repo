@@ -2,11 +2,42 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("sys_docker"
- (filename . "~/mygit/sys_docker/")
- (front-context-string . ".\n  drwxr-xr-x  ")
- (rear-context-string . "18 Jun 21 15:14 ")
- (position . 145))
+(("bugsnag"
+ (filename .
+           #("/ssh:jomendez@jmp001.sjc.xoom.com|ssh:jomendez@10.7.8.36|sudo:root@remotehost:/home/xoom/" 62 66
+             (tramp-default t)))
+ (front-context-string . ".\n  drwxr-xr-x. ")
+ (rear-context-string . "78 Mar 14 14:30 ")
+ (position . 148))
+("jomendez"
+ (filename . "/ssh:jomendez@jmp001.sjc.xoom.com|ssh:jomendez@10.7.8.36|sudo:xoom@remotehost:/home/xoom/")
+ (front-context-string . ".bash_profile\n  ")
+ (rear-context-string . "93 Feb 19 16:06 ")
+ (position . 364))
+("packer host"
+ (filename . "/ssh:pac001.engtools.xoom.com|sudo:root@remotehost:/home/xoom/")
+ (front-context-string . "..\n  -rw------- ")
+ (rear-context-string . "17 Nov  5  2016 ")
+ (position . 167))
+("sitecontent"
+ (filename .
+           #("/ssh:root@cdn001.engtools.xoom.com:/opt/xoom/apps/nginxcdn/docker-compose.yml" 36 39
+             (face flx-highlight-face)
+             40 44
+             (face flx-highlight-face)))
+ (front-context-string . "1\n    depends_on")
+ (rear-context-string . "ntent-nginx:0.7.")
+ (position . 101))
+("packer-host-san-jose"
+ (filename . "/ssh:jomendez@10.7.248.10:/export/home/jomendez/")
+ (front-context-string . ".bash_history\n  ")
+ (rear-context-string . "40 Mar 20 16:29 ")
+ (position . 212))
+("cdn002 xoom"
+ (filename . "/ssh:root@cdn002.qa.xoom.com|sudo:xoom@remotehost:/home/xoom/")
+ (front-context-string . ".bash_history\n  ")
+ (rear-context-string . "88 Jan 30 09:18 ")
+ (position . 216))
 ("local-projects"
  (filename . "~/mygit/")
  (front-context-string . "certs\n  drwxr-xr")
@@ -17,4 +48,25 @@
  (front-context-string . "auth-server-star")
  (rear-context-string . "34 Sep  2  2015 ")
  (position . 926))
+("haproxy-cfg-artlbl001"
+ (filename .
+           #("/ssh:root@artlbl001.engtools.xoom.com:/etc/haproxy/haproxy.cfg" 39 42
+             (face flx-highlight-face)))
+ (front-context-string . "global\n    # to ")
+ (rear-context-string)
+ (position . 1))
+("haproxy-cfg-artlbl002"
+ (filename .
+           #("/ssh:root@artlbl002.engtools.xoom.com:/etc/haproxy/haproxy.cfg" 39 42
+             (face flx-highlight-face)))
+ (front-context-string . "global\n    # to ")
+ (rear-context-string)
+ (position . 1))
+("haproxy-cfg-artlbl003"
+ (filename .
+           #("/ssh:root@artlbl003.engtools.xoom.com:/etc/haproxy/haproxy.cfg" 39 42
+             (face flx-highlight-face)))
+ (front-context-string . "global\n    # to ")
+ (rear-context-string)
+ (position . 1))
 )

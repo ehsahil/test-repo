@@ -3,25 +3,31 @@
 
 (setq mc/cmds-to-run-for-all
       '(
-	autopair-insert-or-skip-quote
-	keyboard-escape-quit
-	kill-rectangle
-	kill-region
-	sh-assignment
-	smex
-	))
+        autopair-insert-or-skip-quote
+        keyboard-escape-quit
+        kill-rectangle
+        kill-region
+        move-text-up
+        sh-assignment
+        smex
+        ))
 
 (setq mc/cmds-to-run-once
       '(
-	autopair-newline
-	electric-newline-and-maybe-indent
-	ido-kill-buffer
-	ido-switch-buffer
-	repeat
-	suspend-frame
-	tab-to-tab-stop
-	undo-tree-visualize
-	upcase-region
-	xterm-paste
-	yank-rectangle
-	))
+        autopair-insert-opening
+        autopair-newline
+        delete-window
+        electric-newline-and-maybe-indent
+        ido-kill-buffer
+        ido-switch-buffer
+        mc/toggle-cursor-at-point
+        multiple-cursors-mode
+        repeat
+        save-buffers-kill-terminal
+        suspend-frame
+        tab-to-tab-stop
+        undo-tree-visualize
+        upcase-region
+        xterm-paste
+        yank-rectangle
+        ))

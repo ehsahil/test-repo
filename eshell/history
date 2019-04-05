@@ -1,0 +1,47 @@
+ls
+ls
+ls -alh
+find-file lista.txt 
+find-file lista.txt
+cat lista.txt 
+find-file lista.txt
+ls
+cd ..
+cd
+ls
+pwd
+exit
+cd ..
+ls
+cd ..
+ls
+find-file corosync.conf 
+ls
+ls
+ls hola
+ls hola
+echo $BASH_SOURCE
+ls
+cd packer
+git status
+ls
+cd packer-centos/
+git status
+git diff
+ls
+ls -alh
+cat daemon.json 
+which sudo
+which sudo
+echo $+
+ls
+cat daemon.json 
+cat /etc/td-agent/td-agent.conf
+ls
+ls
+ls
+cat /proc/meminfo
+ls
+ls
+hostname
+hostname

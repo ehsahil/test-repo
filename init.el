@@ -14,6 +14,25 @@
    t)
   (package-initialize))
 (add-to-list 'load-path "~/.emacs.d/lisp/")
+(setq markdown-command "/usr/local/bin/pandoc")
+;;
+;; make emacs to copy to clipboard
+;;
+(defun copy-from-osx ()
+   (shell-command-to-string "pbpaste"))
+(defun paste-to-osx (text &optional push)
+   (let ((process-connection-type nil))
+      (let ((proc (start-process "pbcopy" "*Messages*" "pbcopy")))
+         (process-send-string proc text)
+         (process-send-eof proc))))
+
+(setq interprogram-cut-function 'paste-to-osx)
+(setq interprogram-paste-function 'copy-from-osx)
+
+;;
+;; default target other dired buffer
+;;
+(setq dired-dwim-target t)
 
 ;;
 ;; Setup puppet-mode for autoloading
@@ -41,7 +60,7 @@
  '(ido-vertical-mode t)
  '(package-selected-packages
    (quote
-    (flycheck-bashate dockerfile-mode flycheck-yamllint highlight-indent-guides ido-describe-bindings flymake-json flymake-puppet helm-mode-manager flx-ido ido-hacks ido-vertical-mode smex flycheck recover-buffers smooth-scrolling esxml puppet-mode js-auto-beautify go-autocomplete auto-complete go-mode exec-path-from-shell yaml-mode wrap-region undo-tree terraform-mode multiple-cursors indent-tools groovy-mode autopair))))
+    (bats-mode elpygen elpy move-text markdown-mode flymd nginx-mode flycheck-bashate dockerfile-mode flycheck-yamllint highlight-indent-guides ido-describe-bindings flymake-json flymake-puppet helm-mode-manager flx-ido ido-hacks ido-vertical-mode smex flycheck recover-buffers smooth-scrolling esxml puppet-mode js-auto-beautify go-autocomplete auto-complete go-mode exec-path-from-shell yaml-mode wrap-region undo-tree terraform-mode multiple-cursors indent-tools autopair))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -78,7 +97,10 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; go autocomplete customization ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 (defun my-go-mode-hook ()
+  ; Use goimports instead of go-fmt
+  (setq gofmt-command "goimports")
   ; Call Gofmt before saving
   (add-hook 'before-save-hook 'gofmt-before-save)
   ; Customize compile command to run go build
@@ -91,16 +113,34 @@
 )
 (add-hook 'go-mode-hook 'my-go-mode-hook)
 
+;; (defun my-go-mode-hook ()
+;;   ; Call Gofmt before saving
+;;   (add-hook 'before-save-hook 'gofmt-before-save)
+;;   ; Customize compile command to run go build
+;;   (if (not (string-match "go" compile-command))
+;;       (set (make-local-variable 'compile-command)
+;;            "go build -v && go test -v && go vet"))
+;;   ; Godef jump key binding
+;;   (local-set-key (kbd "M-.") 'godef-jump)
+;;   (local-set-key (kbd "M-*") 'pop-tag-mark)
+;; )
+;; (add-hook 'go-mode-hook 'my-go-mode-hook)
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; multiple cursors keybidings ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+(global-set-key (kbd "C-c m m ") 'multiple-cursors-mode)
 (global-set-key (kbd "C-c m e ") 'mc/edit-lines)
 (global-set-key (kbd "C-c m n") 'mc/mark-next-like-this)
 (global-set-key (kbd "C-c m p") 'mc/mark-previous-like-this)
 (global-set-key (kbd "C-c m a") 'mc/mark-all-like-this)
 (global-set-key (kbd "C-c m i n") 'mc/insert-numbers)
 (global-set-key (kbd "C-c m i l") 'mc/insert-letterss)
+
+(global-set-key (kbd "C-u") 'move-text-up)
+(global-set-key (kbd "C-d") 'move-text-down)
+
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; toggle cursor at point ;;
@@ -120,28 +160,28 @@
 (add-to-list 'mc/cmds-to-run-once 'mc/toggle-cursor-at-point)
 (add-to-list 'mc/cmds-to-run-once 'multiple-cursors-mode)
 
-(global-set-key (kbd "C-i") 'mc/toggle-cursor-at-point)
+;;(global-set-key (kbd "C-c") 'mc/toggle-cursor-at-point)
 ;;(global-set-key (kbd "C-u") 'multiple-cursors-mode)
-
+(global-set-key (kbd "C-i") 'mc/toggle-cursor-at-point)
 ;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; scroll line by line ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;
 (global-set-key (kbd "ESC <up>") (lambda () (interactive) (scroll-up 1)))
 (global-set-key (kbd "ESC <down>") (lambda () (interactive) (scroll-down 1)))
 
-;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;
 ;; more ido for me ;;
 ;;;;;;;;;;;;;;;;;;;;;
 (ido-mode 1)
-(require 'ido-hacks nil t)					       
-(if (commandp 'ido-vertical-mode) 				       
-    (progn							       
-      (ido-vertical-mode 1)					       
-      (setq ido-vertical-define-keys 'C-n-C-p-up-down-left-right))) 
-(if (commandp 'smex)						       
-    (global-set-key (kbd "M-x") 'smex))			       
-(if (commandp 'flx-ido-mode)					       
-    (flx-ido-mode 1))					       
+(require 'ido-hacks nil t)
+(if (commandp 'ido-vertical-mode)
+    (progn
+      (ido-vertical-mode 1)
+      (setq ido-vertical-define-keys 'C-n-C-p-up-down-left-right)))
+(if (commandp 'smex)
+    (global-set-key (kbd "M-x") 'smex))
+(if (commandp 'flx-ido-mode)
+    (flx-ido-mode 1))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; indent highlihgt mode ;;
@@ -154,4 +194,18 @@
 (add-hook 'yaml-mode-hook 'flycheck-mode)
 (add-hook 'puppet-mode-hook 'flycheck-mode)
 (setq highlight-indent-guides-method 'fill)
- (global-set-key [9] (quote indent-region))
+
+(defun xah-select-text-in-quote ()
+  (interactive)
+  (let (
+        ($skipChars
+         (if (boundp 'xah-brackets)
+             (concat "^\"" xah-brackets)
+           "^\"<>(){}[]“”‘’‹›«»「」『』【】〖〗《》〈〉〔〕（）"))
+        $pos
+        )
+    (skip-chars-backward $skipChars)
+    (setq $pos (point))
+    (skip-chars-forward $skipChars)
+    (set-mark $pos)))
+
