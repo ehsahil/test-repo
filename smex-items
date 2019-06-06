@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- shell
  rgrep
- grep
- diff
- mc/edit-ends-of-lines
- eshell
- comment-box
+ run-groovy
+ json-reformat-region
+ json-mode
+ mc/edit-beginnings-of-lines
+ json-mode-show-path
+ list-packages
 )
 
 ;; ----- smex-data -----
@@ -24,7 +24,7 @@
  (linum-mode . 29)
  (mc/edit-lines . 49)
  (uncomment-region . 22)
- (list-packages . 32)
+ (list-packages . 33)
  (flymake-puppet-load . 6)
  (flymake-compile . 2)
  (flycheck-mode . 13)
@@ -41,7 +41,7 @@
  (join-line . 2)
  (make-directory . 1)
  (dired-create-directory . 1)
- (flymake-json-load . 4)
+ (flymake-json-load . 5)
  (rectangle-mark-mode . 8)
  (set-rectangular-region-anchor . 26)
  (rectangular-region-mode . 2)
@@ -50,7 +50,7 @@
  (cua-mode . 1)
  (open-rectangle . 1)
  (json-pretty-print-buffer-ordered . 4)
- (json-pretty-print . 1)
+ (json-pretty-print . 2)
  (compile . 251)
  (shell . 17)
  (describe-prefix-bindings . 2)
@@ -84,9 +84,9 @@
  (ansi-term . 7)
  (markdown-preview . 4)
  (flymd-flyit . 14)
- (run-groovy . 13)
+ (run-groovy . 14)
  (groovy-send-string-and-go . 1)
- (rgrep . 22)
+ (rgrep . 40)
  (makefile-complete . 2)
  (makefile-mode . 3)
  (mc/mark-all-like-this . 1)
@@ -103,7 +103,7 @@
  (helm-grep-do-git-grep . 8)
  (helm-grep-mode . 1)
  (customize-themes . 2)
- (mc/edit-beginnings-of-lines . 3)
+ (mc/edit-beginnings-of-lines . 4)
  (xah-select-text-in-quote . 14)
  (godef-jump . 2)
  (comint-delchar-or-maybe-eof . 1)
@@ -121,4 +121,8 @@
  (term-line-mode . 3)
  (my-shell . 2)
  (grep . 1)
+ (json-pretty-print-buffer . 1)
+ (json-mode-show-path . 2)
+ (json-mode . 4)
+ (json-reformat-region . 2)
 )

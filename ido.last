@@ -2,6 +2,8 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/ssh:10.178.222.44|sudo:root@remotehost:/etc/ssl/certs/private/" . "crt/")
+ ("/ssh:10.178.222.44|sudo:remotehost:/etc/" . "haproxy/")
  ("/Users/joaqmendez/mygit/docker-java/" . "6u115/")
  ("/ssh:jomendez@jmp001.sjc.xoom.com|ssh:jomendez@10.7.8.36|sudo:root@remotehost:/etc/docker/" . "certs.d/")
  ("/ssh:jomendez@jmp001.sjc.xoom.com|ssh:jomendez@10.7.8.36|sudo:root@remotehost:/home/" . "xoom/")
@@ -113,6 +115,28 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/joaqmendez/.xwizard/repo/wizard-docker-template/app/"
+ "/Users/joaqmendez/.xwizard/repo/wizard-docker-template/"
+ "/Users/joaqmendez/mygit/wizard-docker-template/app/"
+ "/Users/joaqmendez/mygit/wizard-docker-template/app/version/"
+ "/Users/joaqmendez/myworkshop/docker-eatest/"
+ "/Users/joaqmendez/mygit/docker-java/"
+ "/Users/joaqmendez/mygit/docker-java/11u02/"
+ "/Users/joaqmendez/mygit/sys-repos/spec/"
+ "/Users/joaqmendez/mygit/sys-repos/tests/"
+ "/Users/joaqmendez/mygit/sys-repos/config/image_templates/"
+ "/Users/joaqmendez/mygit/sys-repos/spec/acceptance/"
+ "/Users/joaqmendez/mygit/sys-repos/spec/acceptance/nodesets/"
+ "/Users/joaqmendez/mygit/sys-repos/templates/"
+ "/Users/joaqmendez/mygit/sys-repos/spec/classes/"
+ "/Users/joaqmendez/mygit/app-deploy/"
+ "/Users/joaqmendez/mygit/app-pod_deploy/spec/acceptance/"
+ "/Users/joaqmendez/mygit/app-pod_deploy/templates/"
+ "/Users/joaqmendez/mygit/app-pod_deploy/templates/tasks/"
+ "/Users/joaqmendez/mygit/app-pod_deploy/manifests/"
+ "/Users/joaqmendez/mygit/app-deploy/spec/"
+ "/Users/joaqmendez/"
+ "/ssh:10.178.222.44|sudo:remotehost:/etc/haproxy/"
  "/Users/joaqmendez/mygit/docker-java/8u092/"
  "/Users/joaqmendez/mygit/docker-java/6u115/"
  "/Users/joaqmendez/mygit/docker-java/6u045/"
@@ -126,7 +150,6 @@
  "/ssh:jomendez@jmp001.goldbox.xoom.com|ssh:jomendez@10.7.8.36:su:"
  "/ssh:jomendez@jmp001.sjc.xoom.com|ssh:10.7.8.36|sudo:xoom@"
  "/ssh:jomendez@jmp001.sjc.xoom.com|ssh:jomendez@10.7.8.36:/home/jomendez/"
- "/Users/joaqmendez/"
  "/ssh:jomendez@jmp001.sjc.xoom.com|ssh:jomendez@10.7.8.36:"
  "/Users/joaqmendez/mygit/sys-cdn/manifests/"
  "/Users/joaqmendez/mygit/sys_splunk_forwarder/"
@@ -142,31 +165,11 @@
  "/Users/joaqmendez/myansible/kubernetes_pod_deploy/tasks/"
  "/Users/joaqmendez/myansible/kubernetes_pod_deploy/"
  "/Users/joaqmendez/myansible/kubernetes_pod_deploy/vars/"
- "/Users/joaqmendez/mygit/docker-java/8u192/"
- "/Users/joaqmendez/mygit/docker-java/"
- "/Users/joaqmendez/mygit/rpm-jdk8/scripts/"
- "/Users/joaqmendez/mygit/rpm-jdk8/"
- "/Users/joaqmendez/mygit/docker-openldap/2441/"
- "/Users/joaqmendez/mygit/docker-java/2441/"
- "/Users/joaqmendez/mygit/jenkins-helper-scripts/scripts/"
- "/Users/joaqmendez/mygit/jenkins-helper-scripts/test/"
- "/Users/joaqmendez/mygit/"
- "/Users/joaqmendez/mygit/jenkins-helper-scripts/"
- "/Users/joaqmendez/myansible/ansible_deploy/"
- "/Users/joaqmendez/myansible/ansible_deploy/tasks/"
- "/Users/joaqmendez/myansible/ansible_deploy/vars/"
- "/Users/joaqmendez/myansible/ansible_deploy/templates/"
- "/Users/joaqmendez/myansible/"
- "/Users/joaqmendez/mygit/rpm-docker-compose/scripts/"
- "/Users/joaqmendez/mygit/rpm-docker-compose/"
- "/Users/joaqmendez/mygo/src/git.xoom.com/jomendez/xman/cmd/jsonCmd/"
- "/Users/joaqmendez/mygo/src/git.xoom.com/jomendez/xman/cmd/versionCmd/"
- "/Users/joaqmendez/mygo/src/git.xoom.com/jomendez/xman/"
- "/Users/joaqmendez/mygit/jenkins-rpm-pipeline/src/com/xoom/pipeline/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "haproxy.cfg"
  "Dockerfile"
  "logscript.sh"
  "containerstolog.txt"
@@ -175,26 +178,81 @@
  "ssh:jomendez@jmp001.sjc.xoom.com|ssh:jomendez@10.7.8.36:su:xoom"
  "ssh:jomendez@jmp001.goldbox.xoom.com|ssh:jomendez@10.7.8.36|su:xoom"
  "remotehost"
- "versionCmd_test.go"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/ssh:root@artlbl001.engtools.xoom.com:/etc/haproxy//" (ftp . 431801.78596487996) "./" "../" "lista.txt~" "lista.txt" ".tramp_history" ".haproxy.cfg.swp" "haproxy.cfg")
+ ("/Users/joaqmendez/.xwizard/repo/wizard-docker-template/app/" (23772 28591 791210 32000) "Jenkinsfile" "version/" "TAGS.gotmpl" "README.md.gotmpl" ".xwizard.yml" ".docker-flow.gotmpl" "Makefile.gotmpl" "../" "./")
 
- ("/Users/joaqmendez/" (23719 37990 359099 591000) ".account" "#fail.log#" "assets-cdn.s-xoom.com.log" ".tanium-user-key-encryption.key" ".viminfo" ".bash_history" "test.jq~" "hosts.csv" "busco.sh" "cmdb/" "acli.sh~" "joa.py~" "cosa.sh" ".gitconfig" ".aws/" ".cache/" "Downloads/" "#joa.py#" ".oh-my-zsh/" ".Xauthority" "xoomvpc.pem" ".gem/" ".bash_profile" ".m2/" "aql.query~" ".mysql_history" ".puppet/" ".xwizard/" "Documents/" "foreman.pem" ".npm/" "hosts" "test.txt" ".zoomus/" "#coas#" ".Trash/" "mygradle/" "vagrant_2.0.0_x86_64.rpm" ".zsh-update" "lib/" ".gradle/" ".jenv/" ".profile" "Applications/" "test.jq" "Movies/" "fix-user.sh" ".ssh/" "acli.sh" "joa.py" ".ansible/" ".govmomi/" ".sh_history" "packer-artifactory-images-cli/" "mygit/" "vagrant_2.1.5_x86_64.rpm" ".kube/" "cosa.sh~" ".gitignore" ".bash_aliases" ".ansible_galaxy" "mygo/" "Public/" "magic.sh" ".bash_sessions/" "Sites/" "joa.txt" ".cups/" "joa.sh~" ".emacs.d/" ".minikube/" "hosts.txt" ".oracle_jre_usage/" "dev-versioned-keys.properties" ".lesshst" ".irb-history" "test.json" "nose/" "Library/" "Desktop/" ".rvm/" ".zsh_history" ".rnd" ".bundle/" ".nvm/" ".atom/" ".dockerflow/" "virtualbox.repo" "Pictures/" ".local/" "aql.query" "myansible/" ".jfrog/" ".zshrc" ".zshrc.pre-oh-my-zsh" ".vnc/" "easycert/" ".bashrc" ".subversion/" "centos76-beaker-puppet387-20190212.box" "out/" "joa.sh" ".iterm2_shell_integration.bash" ".wget-hsts" "test/" ".CFUserTextEncoding" "Collect.tgz" ".#coas" "VirtualBox VMs/" ".tmux.conf" "fail.log" "todo.txt" ".zshrc~" ".DS_Store" "course/" "data-postgresql/" "hosts.csv~" ".zcompdump-LM-GUA-21016818-5.4.2" ".docker/" ".zcompdump-LM-GUA-21016818-5.3" ".kodi/" "Music/" ".config/" "mycerts/" ".zcompdump-LM-GUA-21016818-5.2" ".packer.d/" "../" "./")
+ ("/Users/joaqmendez/mygit/wizard-docker-template/app/" (23772 28704 501619 830000) "Jenkinsfile" "version/" "TAGS.gotmpl" "README.md.gotmpl" ".xwizard.yml" ".docker-flow.gotmpl" "Makefile.gotmpl" "../" "./")
+
+ ("/Users/joaqmendez/" (23772 28493 604230 216000) ".account" ".groovy/" "#fail.log#" "assets-cdn.s-xoom.com.log" ".tanium-user-key-encryption.key" ".viminfo" ".bash_history" "test.jq~" "hosts.csv" "busco.sh" "cmdb/" "acli.sh~" "joa.py~" "cosa.sh" ".gitconfig" ".aws/" ".cache/" "Downloads/" "#joa.py#" ".oh-my-zsh/" ".Xauthority" "xoomvpc.pem" ".gem/" ".bash_profile" ".m2/" "aql.query~" "#myvms.json#" ".mysql_history" ".puppet/" ".xwizard/" "myworkshop/" "Documents/" "foreman.pem" ".npm/" "#soloartlbl.json#" "hosts" "test.txt" ".zoomus/" "#coas#" ".Trash/" "mygradle/" "vagrant_2.0.0_x86_64.rpm" ".zsh-update" "lib/" ".gradle/" ".jenv/" ".profile" "Applications/" "test.jq" "Movies/" "fix-user.sh" ".ssh/" "acli.sh" "joa.py" ".ansible/" ".govmomi/" ".sh_history" "inventory/" "packer-artifactory-images-cli/" "mygit/" "vagrant_2.1.5_x86_64.rpm" ".kube/" "cosa.sh~" ".gitignore" ".bash_aliases" "otro.json" ".ansible_galaxy" "mygo/" "Public/" "vms.csv" "magic.sh" ".bash_sessions/" "Sites/" "joa.txt" ".cups/" "joa.sh~" "myvms.json" ".emacs.d/" ".minikube/" "myvms.json~" "hosts.txt" ".oracle_jre_usage/" "dev-versioned-keys.properties" ".lesshst" ".irb-history" "test.json" "nose/" "Library/" "Desktop/" ".rvm/" ".zsh_history" ".rnd" ".bundle/" ".nvm/" ".atom/" ".dockerflow/" "virtualbox.repo" "Pictures/" ".local/" "aql.query" "myansible/" ".jfrog/" "other.json" ".bash_profile~" ".zshrc" ".zshrc.pre-oh-my-zsh" ".vnc/" "easycert/" ".bashrc" "script.sh" ".subversion/" "centos76-beaker-puppet387-20190212.box" "out/" "joa.sh" "secondpart.csv" ".iterm2_shell_integration.bash" ".wget-hsts" "test/" ".CFUserTextEncoding" "Collect.tgz" ".#coas" "VirtualBox VMs/" ".tmux.conf" "fail.log" "todo.txt" ".zshrc~" ".DS_Store" "restofvms.json" "index.html" "course/" "data-postgresql/" "hosts.csv~" ".zcompdump-LM-GUA-21016818-5.4.2" "soloartlbl.json" ".docker/" ".gemrc" ".zcompdump-LM-GUA-21016818-5.3" ".kodi/" "Music/" ".config/" "mycerts/" ".zcompdump-LM-GUA-21016818-5.2" ".packer.d/" "../" "./")
+
+ ("/Users/joaqmendez/mygit/sys-repos/spec/classes/" (23764 45056 215033 174000) "hosts_spec.rb" "init_spec.rb" "yumrepos_spec.rb" "../" "./")
+
+ ("/Users/joaqmendez/mygit/sys-repos/templates/" (23761 62072 720967 63000) "gemrc.erb" "pip.conf.erb" "../" "./")
+
+ ("/Users/joaqmendez/mygit/sys-repos/spec/acceptance/nodesets/" (23761 63238 212106 72000) "ec2-centos76.yml" "default.yml" "../" "./")
+
+ ("/Users/joaqmendez/mygit/sys-repos/spec/acceptance/" (23761 62072 717839 325000) "init_spec.rb" "nodesets/" "../" "./")
+
+ ("/Users/joaqmendez/mygit/sys-repos/config/image_templates/" (23761 62139 259318 676000) "ec2.yaml" "../" "./")
+
+ ("/Users/joaqmendez/mygit/sys-repos/tests/" (23761 62072 721230 204000) "init.pp" "../" "./")
+
+ ("/Users/joaqmendez/mygit/sys-repos/spec/" (23761 65153 5331 38000) "spec_helper_acceptance.rb" "hosts/" "fixtures/" "functions/" "acceptance/" "defines/" "classes/" "spec_helper.rb" "../" "./")
+
+ ("/Users/joaqmendez/mygit/docker-java/" (23771 11184 130744 457000) ".gitignore~" "11u02/" ".git/" ".docker-flow" "Jenkinsfile" ".gitignore" "README.md" "TAGS" "#TAGS#" "Makefile" "../" "./")
+
+ ("/Users/joaqmendez/.xwizard/repo/wizard-docker-template/" (23771 12319 364330 349000) ".git/" ".gitignore" "README.md" "app/" ".xwizard.yml" "../" "./")
+
+ ("/Users/joaqmendez/mygit/wizard-docker-template/app/version/" (23772 28350 227581 276000) "Dockerfile.gotmpl" "../" "./")
+
+ ("/Users/joaqmendez/myworkshop/docker-eatest/" (23771 13692 129222 217000) ".git/" ".docker-flow" "Jenkinsfile" "README.md" "TAGS" "1.0.0/" "Makefile" "../" "./")
+
+ ("/Users/joaqmendez/mygit/docker-java/11u02/" (23771 10850 562162 931000) "Dockerfile" "../" "./")
+
+ ("/Users/joaqmendez/mygit/" (23761 58987 478773 259000) "docker-openldap/" "rpm-jdk8/" "jenkins-infeng-seed-job/" "trunk/" "sys_splunk_forwarder/" "packer-beaker-base/" "sys_checkmk/" "#build.sh#" "deploy-script.sh~" "sys-java/" "rpm-elasticsearch/" "jfrog-cli/" "init.pp" "app-pod_deploy/" "app-docker/" "#deploy-script.sh#" "sys-web/" "xoom-web-nginx/" "docker-compose.yml" "sys-repos/" "Gemfile.lock" "rpm-docker-compose/" "jenkins-helper-scripts/" "remittance-orchestration-layer/" "sitecontent-cleaner/" "gettingstarted-machine/" "sys-workstation/" "app-deploy/" "sys-packer-slave/" "docker-elasticsearch/" "docker-nginx/" "docker-easycert-init-container/" "build.sh" "homebrew-tools/" "sys_docker/" "#Gemfile.lock#" "#cosa.txt#" "jenkins-gradle-rpm-pipeline/" "docker-java/" "rpm-percona/" "packer-beaker-java/" "packer-beaker-mdb3/" "rpm-perconamysql/" "tocpy/" "wizard-container-pod-template/" "sys-cdnbackup/" "role-base/" "app-microservice_deploy/" "#nose.txt#" "sys_ddns/" "xoom-fx/" "jenkins-sitecontent-container-deploy/" "packer-beaker-docker/" "packer-centos/" "swampup2018/" "test/" "app-clitools/" "sys-nginx/" "Makefile.backup" ".DS_Store" "init.pp~" "rpm-cdn-sitecontent-release-cleaner/" "wizard-rpm-template/" "jenkins-rpm-pipeline/" "dev-stack-tooling-live/" "sys-cdn/" "docker-ansible/" "sys-nrpe/" "sys-hiera/" "data-perconamysql/" "../" "./")
+
+ ("/Users/joaqmendez/mygit/app-deploy/spec/" (23742 3938 199248 404000) "spec_helper_acceptance.rb" "hosts/" "fixtures/" "functions/" "support/" "acceptance/" "defines/" "classes/" "spec_helper.rb" "../" "./")
+
+ ("/Users/joaqmendez/mygit/app-deploy/" (23743 31387 762136 687000) ".rspec_parallel" "OWNERS.md" ".git/" "dependencies.png" "manifests/" "Capfile" "Gemfile.lock" "templates/" ".rubocop.yml" "Gemfile" "files/" "Jenkinsfile" "hiera/" "VERSION" "VERSION.properties" ".gitignore" ".dockerignore" "Rakefile" "README.md" "spec/" "metadata.json" "tests/" "Puppetfile" "config/" ".fixtures.yml" "Jenkinsfile.release" ".ruby-version" ".ruby-gemset" "index.html" "docker/" ".rspec" ".gemrc" "hiera.yaml" "../" "./")
+
+ ("/Users/joaqmendez/mygit/sys-repos/" (23761 59030 497144 86000) "OWNERS.md" ".git/" "manifests/" "Gemfile.lock" "templates/" ".rubocop.yml" "Gemfile" "files/" "Jenkinsfile" "VERSION.properties" ".gitignore" ".dockerignore" "Rakefile" "README.md" "spec/" "metadata.json" "tests/" "Puppetfile" "config/" ".fixtures.yml" "Jenkinsfile.release" ".ruby-version" ".ruby-gemset" "docker/" ".rspec" ".gemrc" "../" "./")
+
+ ("/Users/joaqmendez/mygit/app-microservice_deploy/" (23751 11110 864733 830000) "OWNERS.md" ".git/" "manifests/" "templates/" ".rubocop.yml" "Gemfile" "files/" "lib/" "Jenkinsfile" "VERSION.properties" ".gitignore" ".dockerignore" "Rakefile" "README.md" "spec/" "metadata.json" "tests/" "Puppetfile" "config/" ".fixtures.yml" ".ruby-version" ".puppet-lint.rc" ".ruby-gemset" "docker/" ".rspec" ".gemrc" "../" "./")
+
+ ("/Users/joaqmendez/mygit/app-pod_deploy/spec/acceptance/" (23738 18402 566226 671000) "compose_pod_task_spec.rb" "compose_pod_bug_xib_2380_spec.rb" "init_spec.rb" "nodesets/" "compose_pod_spec.rb" "../" "./")
+
+ ("/Users/joaqmendez/mygit/app-pod_deploy/templates/" (23738 12460 790593 256000) "docker-compose.override.yml.erb" "tasks/" "../" "./")
+
+ ("/Users/joaqmendez/mygit/app-pod_deploy/templates/tasks/" (23738 12460 790667 785000) "systemd.service.erb" "../" "./")
+
+ ("/Users/joaqmendez/mygit/app-pod_deploy/manifests/" (23738 16639 860425 227000) "init.pp" "compose_pod/" "params.pp" "compose_pod.pp" "../" "./")
+
+ ("/Users/joaqmendez/mygit/app-pod_deploy/" (23738 15115 424086 479000) "OWNERS.md" ".git/" "manifests/" "templates/" ".rubocop.yml" "Gemfile" "lib/" "Jenkinsfile" "VERSION.properties" ".gitignore" ".dockerignore" "Rakefile" "README.md" ".editorconfig" "spec/" "metadata.json" "tests/" "Puppetfile" "config/" ".fixtures.yml" "Jenkinsfile.release" ".ruby-version" ".puppet-lint.rc" ".ruby-gemset" "docker/" ".rspec" ".gemrc" "../" "./")
+
+ ("/Users/joaqmendez/mygit/app-pod_deploy/lib/" (23738 12460 777868 556000) "puppet/" "../" "./")
+
+ ("/Users/joaqmendez/mygit/app-pod_deploy/lib/puppet/" (23738 12460 777936 452000) "parser/" "../" "./")
+
+ ("/Users/joaqmendez/mygit/app-pod_deploy/lib/puppet/parser/" (23738 12460 777996 829000) "functions/" "../" "./")
+
+ ("/Users/joaqmendez/mygit/app-pod_deploy/lib/puppet/parser/functions/" (23738 14762 669568 970000) "pod_md5sum.rb" "secretkeeper_parse.rb" "resolve_parameters_case.rb" "resolve_parameters.rb" "compose_pods.rb" "../" "./")
+
+ ("/Users/joaqmendez/mygit/app-pod_deploy/spec/" (23738 12460 789283 347000) "spec_helper_acceptance.rb" "fixtures/" "functions/" "support/" "acceptance/" "defines/" "classes/" "spec_helper.rb" "../" "./")
+
+ ("/Users/joaqmendez/mygit/app-pod_deploy/spec/defines/" (23738 14566 617100 442000) "compose_pod_install_task_spec.rb" "compose_pod_install_spec.rb" "compose_pod_install_bug_spec.rb" "compose_pod_spec.rb" "../" "./")
+
+ ("/Users/joaqmendez/mygit/app-deploy/manifests/" (23738 13441 364083 774000) "install_service_proxy.pp" "trunk/" "mgc.pp" "docker_deploy.pp" "init.pp" "fd.pp" "environment.pp" "micro_deploy.pp" "site.pp" "zip.pp" "trunk.pp" "clitools/" "site_content.pp" "dockers.pp" "git_deploy.pp" "deprecated.pp" "xip_app.pp" "dtc.pp" "containers.pp" "zkp_properties.pp" "trunk_deploy.pp" "lxc.pp" "zkp_property.pp" "clitools_deploy.pp" "git.pp" "params.pp" "clitools.pp" "zip_deploy.pp" "microservices.pp" "../" "./")
 
  ("/Users/joaqmendez/mygit/docker-java/6u045/" (23718 31524 782392 816000) "Dockerfile" "../" "./")
 
  ("/Users/joaqmendez/mygit/docker-java/8u092/" (23718 31528 539607 923000) "#Dockerfile#" "Dockerfile" "../" "./")
 
- ("/ssh:root@artlbl001.engtools.xoom.com:/etc/haproxy/" (ftp . 431801.7827632375) "./" "../" "lista.txt~" "lista.txt" ".tramp_history" ".haproxy.cfg.swp" "haproxy.cfg")
-
  ("/Users/joaqmendez/mycerts/" (23719 37189 41771 272000) "ord.engtools.xoom.com.crt" "#mykey.key#" ".#mykey.key" "../" "./")
 
  ("/Users/joaqmendez/mygit/docker-java/6u115/" (23533 43965 0 0) "Dockerfile" "../" "./")
-
- ("/Users/joaqmendez/mygit/" (23718 31135 862135 525000) "docker-openldap/" "rpm-jdk8/" "jenkins-infeng-seed-job/" "trunk/" "sys_splunk_forwarder/" "packer-beaker-base/" "sys_checkmk/" "#build.sh#" "deploy-script.sh~" "sys-java/" "rpm-elasticsearch/" "jfrog-cli/" "init.pp" "app-docker/" "#deploy-script.sh#" "sys-web/" "xoom-web-nginx/" "docker-compose.yml" "Gemfile.lock" "rpm-docker-compose/" "jenkins-helper-scripts/" "remittance-orchestration-layer/" "sitecontent-cleaner/" "gettingstarted-machine/" "sys-workstation/" "app-deploy/" "sys-packer-slave/" "docker-elasticsearch/" "docker-nginx/" "docker-easycert-init-container/" "build.sh" "homebrew-tools/" "sys_docker/" "#Gemfile.lock#" "jenkins-gradle-rpm-pipeline/" "docker-java/" "rpm-percona/" "packer-beaker-java/" "packer-beaker-mdb3/" "rpm-perconamysql/" "tocpy/" "wizard-container-pod-template/" "sys-cdnbackup/" "sys_ddns/" "xoom-fx/" "jenkins-sitecontent-container-deploy/" "packer-beaker-docker/" "packer-centos/" "swampup2018/" "test/" "app-clitools/" "sys-nginx/" "Makefile.backup" ".DS_Store" "init.pp~" "rpm-cdn-sitecontent-release-cleaner/" "wizard-rpm-template/" "jenkins-rpm-pipeline/" "dev-stack-tooling-live/" "sys-cdn/" "docker-ansible/" "sys-hiera/" "data-perconamysql/" "../" "./")
 
  ("/Users/joaqmendez/mygit/jfrog-cli/" (23455 63386 0 0) ".git/" ".docker-flow" "Jenkinsfile" ".gitignore" "README.md" "TAGS" "latest/" "Makefile" "CHANGELOG.md" ".DS_Store" "../" "./")
 
@@ -257,8 +315,6 @@
  ("/Users/joaqmendez/mygit/rpm-jdk8/" (23533 47015 0 0) "VERSION.properties" "VERSION" "Vagrantfile" "target/" "spec/" "scripts/" "README.md" "Rakefile" "metadata.json" "Makefile" "Jenkinsfile.release" "Jenkinsfile" "Gemfile.lock" "Gemfile" "Dockerfile" ".ruby-version" ".ruby-gemset" ".rspec" ".gitignore" ".git/" ".gemrc" ".dockerignore" "../" "./")
 
  ("/Users/joaqmendez/mygit/rpm-jdk8/scripts/" (23533 46928 0 0) "test.sh" "provision.sh" "entrypoint.sh" "deploy.sh" "bump-version.sh" "build.sh" "../" "./")
-
- ("/Users/joaqmendez/mygit/docker-java/" (23539 14855 0 0) "TAGS" "README.md" "Makefile" "Jenkinsfile" "8u191/" "8u181/" "8u172/" "8u152/" "8u144/" "8u131/" "8u112/" "8u092/" "6u115/" "6u045/" ".gitignore~" ".gitignore" ".git/" ".docker-flow" "../" "./")
 
  ("/Users/joaqmendez/myansible/kubernetes_pod_deploy/vars/" (23562 38676 0 0) "main.yml" "../" "./")
 
@@ -325,60 +381,6 @@
  ("/Users/joaqmendez/mygit/packer-centos/centos70/scripts/dev/workstation/" (23403 40457 0 0) "xoom-user.sh" "upload-ova-vsphere.sh~" "upload-ova-vsphere.sh" "terraform-user.sh" "puppet-workstation.sh" "gnome.sh" "gnome-vsphere.sh" "base-packages.sh" "#upload-ova-vsphere.sh#" "../" "./")
 
  ("/Users/joaqmendez/mygit/sys-hiera/data/role/wdb/" (23404 54562 0 0) "engtools.yml" "engtools/" "../" "./")
-
- ("/Users/joaqmendez/mygit/sys-hiera/data/role/wrk/" (23404 51434 0 0) "engtools.yml" "engtools/" "../" "./")
-
- ("/Users/joaqmendez/mygit/sys-workstation/" (23409 61246 0 0) "VERSION.properties" "tests/" "templates/" "spec/" "README.md" "Rakefile" "Puppetfile" "OWNERS.md" "metadata.json" "manifests/" "log/" "junit/" "Jenkinsfile.release" "Jenkinsfile" "Gemfile.lock" "Gemfile" "docker/" "config/" ".ruby-version" ".ruby-gemset" ".rubocop.yml" ".rspec" ".puppet-lint.rc" ".gitignore" ".gemrc" ".fixtures.yml" ".dockerignore" "#OWNERS.md#" "../" "./")
-
- ("/Users/joaqmendez/mygit/sys_docker/manifests/" (23430 54410 0 0) "user.pp" "params.pp" "install.pp" "install/" "init.pp" "config/" "cleanup.pp" "../" "./")
-
- ("/Users/joaqmendez/mygit/jenkins-gradle-rpm-pipeline/src/com/xoom/pipeline/" (23432 18965 0 0) "Stages.groovy" "Helpers.groovy" "../" "./")
-
- ("/Users/joaqmendez/mygradle/rpm-jfrogcli/" (23432 21514 0 0) "settings.gradle" "scripts/" "Jenkinsfile~" "Jenkinsfile.release" "Jenkinsfile" "gradlew.bat" "gradlew" "gradle/" "build.gradle~" "build.gradle" "build/" ".gradle/" ".gitignore~" ".gitignore" ".git/" "../" "./")
-
- ("/Users/joaqmendez/mygit/sys-cdn/spec/acceptance/" (23437 41838 0 0) "nodesets/" "init_spec.rb" "../" "./")
-
- ("/Users/joaqmendez/mygit/sys-cdn/spec/acceptance/nodesets/" (23437 39836 0 0) "ec2.yml" "default.yml" "../" "./")
-
- ("/Users/joaqmendez/mygo/src/github.com/somefuncs/" (23440 15803 0 0) "name.go~" "name.go" "#name.go#" "../" "./")
-
- ("/Users/joaqmendez/mygit/docker-nginx/centos/" (23441 30309 0 0) "openresty/" "lua/" "Dockerfile" "../" "./")
-
- ("/Users/joaqmendez/mygit/docker-nginx/files/" (23441 30128 0 0) "sa-redirects-global.conf~" "sa-redirects-global.conf" "nginx.vh.default.conf" "nginx.conf" "nginx-map.conf~" "nginx-map.conf" "nc-301-redirects-global.map" "default.conf~" "default.conf" "artifactory-nginx-mirror.centos.repo" "#nginx.conf#" "../" "./")
-
- ("/Users/joaqmendez/mygo/src/github.com/devx/" (23446 43351 0 0) "rol-config.yml" "reports/" "README.md" "Makefile" "main_test.go" "main.go" "Jenkinsfile" "glide.yaml" "glide.lock" "examples/" "docker/" "config-example.yml" "applink/" ".gitignore" ".git/" "#main.go#" "../" "./")
-
- ("/Users/joaqmendez/.emacs.d/elpa/magit-20170425.638/" (23212 4381 0 0) "magit.info-2" "magit.info-1" "magit.info" "magit.elc" "magit.el" "magit-worktree.elc" "magit-worktree.el" "magit-wip.elc" "magit-wip.el" "magit-utils.elc" "magit-utils.el" "magit-subtree.elc" "magit-subtree.el" "magit-submodule.elc" "magit-submodule.el" "magit-status.elc" "magit-status.el" "magit-stash.elc" "magit-stash.el" "magit-sequence.elc" "magit-sequence.el" "magit-section.elc" "magit-section.el" "magit-repos.elc" "magit-repos.el" "magit-remote.elc" "magit-remote.el" "magit-refs.elc" "magit-refs.el" "magit-process.elc" "magit-process.el" "magit-pkg.el" "magit-obsolete.elc" "magit-obsolete.el" "magit-notes.elc" "magit-notes.el" "magit-mode.elc" "magit-mode.el" "magit-margin.elc" "magit-margin.el" "magit-log.elc" "magit-log.el" "magit-git.elc" "magit-git.el" "magit-files.elc" "magit-files.el" "magit-extras.elc" "magit-extras.el" "magit-ediff.elc" "magit-ediff.el" "magit-diff.elc" "magit-diff.el" "magit-core.elc" "magit-core.el" "magit-commit.elc" "magit-commit.el" "magit-branch.elc" "magit-branch.el" "magit-blame.elc" "magit-blame.el" "magit-bisect.elc" "magit-bisect.el" "magit-autorevert.elc" "magit-autorevert.el" "magit-autoloads.el" "magit-apply.elc" "magit-apply.el" "git-rebase.elc" "git-rebase.el" "dir" "COPYING" "AUTHORS.md" "../" "./")
-
- ("/Users/joaqmendez/.emacs.d/" (23440 15216 0 0) "var/" "tramp" "test.txt" "smex-items" "network-security.data" "lisp/" "joa2-theme.el" "joa-theme.el" "init.el~" "init.el" "ido.last~" "ido.last" "eshell/" "elpa/" "bookmarks" "auto-save-list/" "ac-comphist.dat" ".mc-lists.el" ".gitignore" ".git/" ".DS_Store" "../" "./")
-
- ("/Users/joaqmendez/mygo/" (23438 51700 0 0) "src/" "bin/" "../" "./")
-
- ("/Users/joaqmendez/mygo/src/" (23438 51693 0 0) "github.com/" "../" "./")
-
- ("/usr/local/opt/go/libexec/src/" (23424 27857 0 0) "vendor/" "unsafe/" "unicode/" "time/" "text/" "testing/" "syscall/" "sync/" "strings/" "strconv/" "sort/" "runtime/" "run.rc" "run.bat" "run.bash" "regexp/" "reflect/" "race.bat" "race.bash" "plugin/" "path/" "os/" "net/" "nacltest.bash" "naclmake.bash" "mime/" "math/" "make.rc" "Make.dist" "make.bat" "make.bash" "log/" "iostest.bash" "io/" "internal/" "index/" "image/" "html/" "hash/" "go/" "fmt/" "flag/" "expvar/" "errors/" "encoding/" "debug/" "database/" "crypto/" "context/" "container/" "compress/" "cmp.bash" "cmd/" "clean.rc" "clean.bat" "clean.bash" "bytes/" "builtin/" "buildall.bash" "bufio/" "bootstrap.bash" "archive/" "androidtest.bash" "all.rc" "all.bat" "all.bash" "../" "./")
-
- ("/Users/joaqmendez/mygo/src/github.com/test/" (23438 52060 0 0) "test" "main.go" "../" "./")
-
- ("/Users/joaqmendez/mygit/sys-cdn/config/image_templates/" (23437 29373 0 0) "ec2.yaml" "../" "./")
-
- ("/Users/joaqmendez/mygit/sys-cdn/spec/classes/" (23437 27393 0 0) "init_spec.rb" "../" "./")
-
- ("/Users/joaqmendez/mygit/sys-cdn/templates/nginx/" (23437 25710 0 0) "docker-compose.yml.erb" "../" "./")
-
- ("/Users/joaqmendez/mygradle/rpm-jfrogcli/gradle/wrapper/" (23432 20885 0 0) "gradle-wrapper.properties" "gradle-wrapper.jar" "gradle-4.8.1-all.zip" "#gradle-wrapper.properties#" "../" "./")
-
- ("/Users/joaqmendez/mygradle/" (23423 11893 0 0) "tests/" "rpm-jfrogcli/" "Makefile" "gradele-rpm/" "../" "./")
-
- ("/Users/joaqmendez/mygit/jenkins-gradle-rpm-pipeline/" (23432 13062 0 0) "vars/" "src/" "resources/" "README.md" "docs/" ".gitignore" ".git/" "../" "./")
-
- ("/Users/joaqmendez/mygit/jenkins-gradle-rpm-pipeline/resources/com/xoom/artifactory/" (23432 13062 0 0) "shellToolSpec.json" "../" "./")
-
- ("/Users/joaqmendez/mygit/sys_docker/manifests/install/" (23430 54442 0 0) "compose.pp" "centos.pp" "../" "./")
-
- ("/Users/joaqmendez/mygit/sys-hiera/data/role/adb/prod/" (23404 48111 0 0) "sjc.xoom.com.yaml" "sjc.prod.xoom.com.yaml" "../" "./")
-
- ("/Users/joaqmendez/mygit/sys-hiera/" (23404 48144 0 0) "VERSION.properties" "spec/" "README.md" "Rakefile" "Puppetfile" "OWNERS.md" "metadata.json" "Jenkinsfile.release" "Jenkinsfile" "hiera.yaml" "Gemfile" "docker/" "data/" "config/" ".ruby-version" ".ruby-gemset" ".rubocop.yml" ".rspec" ".puppet-lint.rc" ".gitignore" ".git/" ".gemrc" ".fixtures.yml" ".dockerignore" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----

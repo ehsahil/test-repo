@@ -60,7 +60,7 @@
  '(ido-vertical-mode t)
  '(package-selected-packages
    (quote
-    (bats-mode elpygen elpy move-text markdown-mode flymd nginx-mode flycheck-bashate dockerfile-mode flycheck-yamllint highlight-indent-guides ido-describe-bindings flymake-json flymake-puppet helm-mode-manager flx-ido ido-hacks ido-vertical-mode smex flycheck recover-buffers smooth-scrolling esxml puppet-mode js-auto-beautify go-autocomplete auto-complete go-mode exec-path-from-shell yaml-mode wrap-region undo-tree terraform-mode multiple-cursors indent-tools autopair))))
+    (json-mode bats-mode elpygen elpy move-text markdown-mode flymd nginx-mode flycheck-bashate dockerfile-mode flycheck-yamllint highlight-indent-guides ido-describe-bindings flymake-json flymake-puppet helm-mode-manager flx-ido ido-hacks ido-vertical-mode smex flycheck recover-buffers smooth-scrolling esxml puppet-mode js-auto-beautify go-autocomplete auto-complete go-mode exec-path-from-shell yaml-mode wrap-region undo-tree terraform-mode multiple-cursors indent-tools autopair))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
